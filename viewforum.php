@@ -1,10 +1,15 @@
 <?php
-/** 
-* ภาษาไทย เวอร์ชั่น 1.0.0 
-* 05/06/2551 
-* ไฟล์ภาษาไทยสำหรับ PHPBB3 โดย www.mindphp.com และ www.phpbbthailand.com
+/**
 *
-*/  
+* common [Thai]
+*
+* @package language
+* @version $Id: viewforum.php Modified by xcession $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+*
+*/
+
 /**
 * DO NOT CHANGE
 */

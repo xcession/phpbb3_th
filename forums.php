@@ -1,18 +1,10 @@
 <?php
-/** 
-* ภาษาไทย เวอร์ชั่น 1.0.0 
-* 05/06/2551 
-* ไฟล์ภาษาไทยสำหรับ PHPBB3 โดย www.mindphp.com และ www.phpbbthailand.com
-*
-*/ 
-
-
 /**
 *
-* acp_forums [English]
+* acp_forums [Thai]
 *
 * @package language
-* @version $Id: forums.php,v 1.32 2007/10/05 13:14:58 kellanved Exp $
+* @version $Id: forums.php Modified by xcession $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

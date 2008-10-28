@@ -1,22 +1,18 @@
 <?php
-/** 
-* ภาษาไทย เวอร์ชั่น 1.0.0 
-* 05/06/2551 
-* ไฟล์ภาษาไทยสำหรับ PHPBB3 โดย www.mindphp.com และ www.phpbbthailand.com
-*
-*/ 
-
 /**
 *
-* search_ignore_words [English]
+* common [Thai]
 *
 * @package language
-* @version $Id: search_ignore_words.php 8479 2008-03-29 00:22:48Z naderman $
+* @version $Id: search_ignore_words.php Modified by xcession $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
+/**
+* DO NOT CHANGE
+*/
 if (!defined('IN_PHPBB'))
 {
 	exit;
