@@ -1,18 +1,12 @@
 <?php
-/** 
-* ภาษาไทย เวอร์ชั่น 1.0.0 
-* 05/06/2551 
-* ไฟล์ภาษาไทยสำหรับ PHPBB3 โดย www.mindphp.com และ www.phpbbthailand.com
-*
-*/ 
-
+// Modified by xcession (2008.10.29)
 
 /**
 *
-* acp_permissions [English]
+* acp_permissions [Thai]
 *
 * @package language
-* @version $Id: permissions.php,v 1.38 2007/10/08 14:38:26 acydburn Exp $
+* @version $Id: permissions.php 8479 2008-03-29 00:22:48Z naderman $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

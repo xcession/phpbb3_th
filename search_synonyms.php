@@ -1,10 +1,12 @@
 <?php
+// Modified by xcession (2008.10.29)
+
 /**
 *
-* common [Thai]
+* search_synonyms [Thai]
 *
 * @package language
-* @version $Id: search_synonyms.php Modified by xcession $
+* @version $Id: search_synonyms.php 8479 2008-03-29 00:22:48Z naderman $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

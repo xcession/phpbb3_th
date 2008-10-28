@@ -1,10 +1,12 @@
 <?php
+// Modified by xcession (2008.10.29)
+
 /**
 *
-* common [Thai]
+* install [Thai]
 *
 * @package language
-* @version $Id: install.php Modified by xcession $
+* @version $Id: install.php 8598 2008-06-04 15:37:06Z naderman $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

@@ -1,17 +1,12 @@
 <?php
-/** 
-* ภาษาไทย เวอร์ชั่น 1.0.1 
-* 05/06/2551 
-* ไฟล์ภาษาไทยสำหรับ PHPBB3 โดย www.mindphp.com และ www.phpbbthailand.com
-*
-*/ 
+// Modified by xcession (2008.10.29)
 
 /**
 *
-* acp_attachments [English]
+* acp_attachments [Thai]
 *
 * @package language
-* @version $Id: attachments.php,v 1.31 2007/10/04 15:07:24 acydburn Exp $
+* @version $Id: attachments.php 8555 2008-05-15 14:10:11Z Kellanved $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

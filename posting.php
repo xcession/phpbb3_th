@@ -1,10 +1,12 @@
 <?php
+// Modified by xcession (2008.10.29)
+
 /**
 *
 * posting [Thai]
 *
 * @package language
-* @version $Id: posting.php Modified by xcession $
+* @version $Id: posting.php 8555 2008-05-15 14:10:11Z Kellanved $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

@@ -1,18 +1,12 @@
 <?php
-/** 
-* ภาษาไทย เวอร์ชั่น 1.0.2 
-* 05/06/2551 
-* ไฟล์ภาษาไทยสำหรับ PHPBB3 โดย www.mindphp.com และ www.phpbbthailand.com
-*
-*/ 
-
+// Modified by xcession (2008.10.29)
 
 /**
 *
-* acp_board [English]
+* acp_board [Thai]
 *
 * @package language
-* @version $Id: board.php,v 1.101 2007/11/03 20:29:39 acydburn Exp $
+* @version $Id: board.php 8554 2008-05-15 13:29:14Z Kellanved $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

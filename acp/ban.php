@@ -1,17 +1,12 @@
 <?php
-/** 
-* ภาษาไทย เวอร์ชั่น 1.0.0 
-* 05/06/2551 
-* ไฟล์ภาษาไทยสำหรับ PHPBB3 โดย www.mindphp.com และ www.phpbbthailand.com
-*
-*/ 
+// Modified by xcession (2008.10.29)
 
 /**
 *
-* acp_ban [English]
+* acp_ban [Thai]
 *
 * @package language
-* @version $Id: ban.php,v 1.19 2007/10/04 15:07:24 acydburn Exp $
+* @version $Id: ban.php 8479 2008-03-29 00:22:48Z naderman $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

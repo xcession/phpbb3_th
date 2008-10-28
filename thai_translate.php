@@ -1,4 +1,6 @@
 <?php
+// Modified by xcession (2008.10.29)
+
 if (!defined('IN_PHPBB'))
 {
 	exit;

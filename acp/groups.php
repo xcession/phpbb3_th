@@ -1,17 +1,12 @@
 <?php
-/** 
-* ภาษาไทย เวอร์ชั่น 1.0.2
-* 01/09/2551 
-* ไฟล์ภาษาไทยสำหรับ PHPBB3 โดย www.mindphp.com และ www.phpbbthailand.com
-*
-*/ 
+// Modified by xcession (2008.10.29)
 
 /**
 *
-* acp_groups [English]
+* acp_groups [Thai]
 *
 * @package language
-* @version $Id: groups.php,v 1.29 2007/10/04 15:07:24 acydburn Exp $
+* @version $Id: groups.php 8634 2008-06-09 13:05:34Z Kellanved $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
