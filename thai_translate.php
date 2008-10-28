@@ -1,5 +1,5 @@
 <?php
-// Modified by xcession (2008.10.29)
+// Modified by xcession
 
 if (!defined('IN_PHPBB'))
 {
