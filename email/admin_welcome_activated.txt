@@ -1,0 +1,8 @@
+Subject: Account activated
+
+ถึงคุณ {USERNAME}
+
+ชื่อบัญชีของคุณบนเว็บ "{SITENAME}" ได้รับการยืนยันแล้ว
+คุณสามารถเข้าสู่ระบบโดยใช้ username และ password ที่คุณได้รับใน e-mail ก่อนหน้านี้
+
+{EMAIL_SIG}
