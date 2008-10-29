@@ -42,7 +42,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> '',
+	'TRANSLATION_INFO'	                => 'Thai Language Pack by xcession.',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'USER_LANG'			=> 'th',
@@ -176,7 +176,7 @@ $lang = array_merge($lang, array(
 	'EXPAND_VIEW'						=> 'มุมมองที่ขยายได้',
 	'EXTENSION'							=> 'ชนิดของไฟล์', //[TODO]
 	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'ชนิดของไฟล์ <strong>%s</strong> ให้ใช้งานไม่ได้ จึงไม่สามารถแสดงผลได้อีกต่อไป', //[TODO]
-	
+
 	'FAQ'					=> 'FAQ',
 	'FAQ_EXPLAIN'			=> 'คำถามที่ถูกถามอยู่บ่อยๆ',
 	'FILENAME'				=> 'ชื่อไฟล์',
@@ -242,24 +242,26 @@ $lang = array_merge($lang, array(
 	'GUEST_USERS_ZERO_TOTAL'	=> 'ไม่มีบุคคลทั่วไป',
 	'GUEST_USER_ONLINE'			=> 'มี บุคคลทั่วไปออนไลน์ %d ท่าน',
 	'GUEST_USER_TOTAL'			=> 'บุคคลทั่วไป %d ท่าน',
-	
 	'G_ADMINISTRATORS'			=> 'Administrator',
-	'G_BOTS'					=> 'Bots',
+	'G_BOTS'					=> 'Bot',
 	'G_GUESTS'					=> 'บุคคลทั่วไป',
 	'G_REGISTERED'				=> 'สมาชิก',
-	'G_REGISTERED_COPPA'		=> 'Registered COPPA users',
-	'G_GLOBAL_MODERATORS'		=> 'Moderators',
+	'G_REGISTERED_COPPA'		=> 'Registered COPPA users', //[TODO]
+	'G_GLOBAL_MODERATORS'		=> 'Global moderators', //[TODO]
 
-	'HIDDEN_USERS_ONLINE'		=> 'ซ่อน %d ท่าน',
-	'HIDDEN_USERS_TOTAL'		=> 'ซ่อน %d ท่าน และ ',
-	'HIDDEN_USERS_ZERO_ONLINE'	=> 'ไม่มีผู้ซ่อน',
-	'HIDDEN_USERS_ZERO_TOTAL'	=> 'ไม่มีผู้ซ่อน และ ',
-	'HIDDEN_USER_ONLINE'		=> 'ซ่อน %d ท่าน',
-	'HIDDEN_USER_TOTAL'			=> 'ซ่อน %d ท่าน และ ',
-	'HIDE_GUESTS'				=> 'Hide guests',
-	'HIDE_ME'					=> 'ซ่อนสถานะการออนไลน์ของฉัน',
-	'HOURS'						=> 'ชั่วโมง',
-	'HOME'						=> 'หน้าแรก',
+	'HIDDEN_USERS_ONLINE'			=> 'ซ่อน %d ท่าน',
+	'HIDDEN_USERS_TOTAL'			=> 'ซ่อน %d ท่าน และ ',
+	'HIDDEN_USERS_TOTAL_AND'		=> '%d hidden and ', //[TODO]
+	'HIDDEN_USERS_ZERO_ONLINE'		=> 'ไม่มีผู้ซ่อน',
+	'HIDDEN_USERS_ZERO_TOTAL'		=> 'ไม่มีผู้ซ่อน และ ',
+	'HIDDEN_USERS_ZERO_TOTAL_AND'	=> '0 hidden and ', //[TODO]
+	'HIDDEN_USER_ONLINE'			=> 'ซ่อน %d ท่าน',
+	'HIDDEN_USER_TOTAL'				=> 'ซ่อน %d ท่าน และ ',
+	'HIDDEN_USER_TOTAL_AND'			=> '%d hidden and ', //[TODO]
+	'HIDE_GUESTS'					=> 'Hide guests',
+	'HIDE_ME'						=> 'ซ่อนสถานะการออนไลน์ของฉัน',
+	'HOURS'							=> 'ชั่วโมง',
+	'HOME'							=> 'หน้าแรก',
 
 	'ICQ'						=> 'ICQ',
 	'ICQ_STATUS'				=> 'สถานะ ICQ',	
@@ -290,14 +292,12 @@ $lang = array_merge($lang, array(
 	'LAST_VISIT'						=> 'เข้าชมล่าสุด',
 	'LDAP_NO_LDAP_EXTENSION'			=> 'LDAP extension ไม่สามารถใช้งานได้.',
 	'LDAP_NO_SERVER_CONNECTION'			=> 'ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ของ LDAP ',
-	
 	'LEGEND'							=> 'กลุ่ม',
 	'LOCATION'							=> 'ที่อยู่',
 	'LOCK_POST'							=> 'ล็อคโพสต์',
 	'LOCK_POST_EXPLAIN'					=> 'การแก้ไขถูกขัดขวาง',
 	'LOCK_TOPIC'						=> 'ล็อคหัวข้อ',
 	'LOGIN'								=> ' เข้าสู่ระบบ ',
-	
 	'LOGIN_CHECK_PM'					=> 'เข้าระบบเพื่อตรวจสอบข้อความส่วนตัว.',
 	'LOGIN_CONFIRMATION'				=> 'ยอมรับการเข้าระบบ',
 	'LOGIN_CONFIRM_EXPLAIN'				=> ' เพื่อป้องกันการสุ่มหาบัญชีผู้ใช้ คุณต้องระบุรหัสการยืนยันหลังจากล็อคอินล้มเหลวเกินจำนวนมากที่สุดที่ตั้งไว้ ดังรหัสแสดงเป็นภาพดังด้านล่างนี้ หากคุณไม่สามารถมองเห็นได้ด้วยเหตุใด กรุณาติดต่อ%s ผู้ดูแลบอร์ด %s',
@@ -311,11 +311,10 @@ $lang = array_merge($lang, array(
 	'LOGIN_VIEW_FORUM'					=> 'เวบบอร์ดนี้ต้องการการลงทะเบียนและการเข้าใช้งานในระบบ สำหรับดูข้อความในบอร์ดนี้',
 	'LOGIN_EXPLAIN_EDIT'				=> 'ในการแก้ไขข้อความในบอร์ดนี้ คุณต้องลงทะเบียนการเป็นสมาชิกและเข้าใช้งานในระบบก่อน',
 	'LOGIN_EXPLAIN_VIEWONLINE'			=> 'ในการดูข้อความในบอร์ดนี้ คุณต้องลงทะเบียนการเป็นสมาชิกและเข้าใช้งานในระบบก่อน',
-	'TRANSLATION_INFO'	                => 'Thai language by <a href="http://www.mindphp.com">Mindphp.com</a> & <a href="http://www.phpbbthailand.com">phpBBThailand.com</a>',	
 	'LOGOUT'							=> 'ออกจากระบบ',
 	'LOGOUT_USER'						=> 'สวัสดี %s [<strong>ออกจากระบบ</strong>]',
 	'LOG_ME_IN'							=> 'เข้าสู่ระบบอัตโนมัติ',
-	
+
 	'MARK'					=> 'เลือก',
 	'MARK_ALL'				=> 'เลือกทั้งหมด',
 	'MARK_FORUMS_READ'      => 'บันทึกว่าอ่านทุกบอร์ด แล้ว',
@@ -350,21 +349,18 @@ $lang = array_merge($lang, array(
 	'NEXT_STEP'					=> 'ต่อไป',
 	'NEVER'						=> 'Never',
 	'NO'						=> 'ไม่',
-	
 	'NOT_ALLOWED_MANAGE_GROUP'	=> 'คุณไม่ได้รับอนุญาตให้จัดการข้อความนี้',
 	'NOT_AUTHORISED'			=> 'คุณไม่ได้รับสิทธิ์ให้ใช้งานในพื้นที่นี้',
 	'NOT_WATCHING_FORUM'		=> 'ยกเลิกการส่ง E-mail เมื่อมีกระทู้ใหม่ในบอร์ดนี้',
 	'NOT_WATCHING_TOPIC'		=> 'ยกเลิกการส่ง E-mail เมื่อมีคนตอบใน กระทู้นี้',
 	'NOTIFY_ADMIN'				=> 'กรุณาแจ้ง ผู้ดูแลระบบ',
 	'NOTIFY_ADMIN_EMAIL'		=> 'กรุณาแจ้ง ผู้ดูแลระบบ: <a href="mailto:%1$s">%1$s</a>',
-	
 	'NO_ACCESS_ATTACHMENT'		=> 'ไม่สามารถใช้ไฟล์นี้',
 	'NO_ACTION'					=> 'ไม่สามารถทำอะไรได้',
 	'NO_ADMINISTRATORS'			=> 'ไม่มีผู้ดูแลบอร์ดนี้',
 	'NO_AUTH_ADMIN'				=> 'การเข้าใช้งานในส่วนหน้าผู้ดูแลระบบไม่สามารถเข้าถึงได้ เพราะคุณไม่มีสิทธิ์ในการเป็นผู้ดูแลระบบ',
 	'NO_AUTH_ADMIN_USER_DIFFER'	=> 'คุณไม่มีสิทธิ์เข้าใช้งานในสถานะผู้ใช้อื่น',
 	'NO_AUTH_OPERATION'			=> 'คุณไม่ได้รับอนุญาตให้กระทำการใดๆ สำเร็จ',
-	
 	'NO_CONNECT_TO_SMTP_HOST'	=> 'ไม่สามารถเชื่อมต่อกับ SMTP โฮสต์ : %1$s : %2$s',
 	'NO_BIRTHDAYS'				=> 'ยังไม่ระบุวันเกิด',
 	'NO_EMAIL_MESSAGE'			=> 'ข้อความ e-mail เป็นค่าว่าง',
@@ -389,6 +385,7 @@ $lang = array_merge($lang, array(
 	'NO_SUCH_SEARCH_MODULE'		=> 'ไม่พบคำที่ค้นหา',
 	'NO_SUPPORTED_AUTH_METHODS'	=> 'ไม่รองรับการกำหนดสิทธิ์.',
 	'NO_TOPIC'					=> 'ไม่มีกระทู้นี้',
+	'NO_TOPIC_FORUM'			=> 'The topic or forum no longer exists.', //[TODO]
 	'NO_TOPICS'					=> 'ไม่พบกระทู้ใด ๆในบอร์ดนี้.',
 	'NO_TOPICS_TIME_FRAME'		=> 'ไม่มีข้อความในบอร์ด นี้',
 	'NO_UNREAD_PM'				=> '<strong>0</strong> มีข้อความที่ไม่ได้อ่าน',
@@ -419,21 +416,17 @@ $lang = array_merge($lang, array(
 	'POSTED_IN_  Forum'			=> 'ใน',
 	'POSTED_ON_DATE'			=> 'เมื่อ',
 	'POSTS'						=> 'โพสต์',
-	'POSTS1'					=> 'กระทู้',
-
 	'POSTS_UNAPPROVED'		=> 'อย่างน้อย 1 ข้อความในกระทู้นี้ถูกอนุมัติ',
 	'POST_BY_AUTHOR'		=> 'โดย',
 	'POST_BY_FOE'			=> 'ข้อความนี้ถูกโพสต์โดย <strong>%1$s</strong> ซึ่งอยู่ในรายการที่คุณละเลย %2$sDisplay this post%3$s.',
-	
 	'POST_DAY'				=> '%.2f ข้อความต่อวัน',
 	'POST_DETAILS'			=> 'รายละเอียดโพสต์',
 	'POST_NEW_TOPIC'		=> 'โพสต์กระทู้ใหม่',
 	'POST_PCT'				=> '%.2f%% จากโพสทั้งหมด',
 	'POST_PCT_ACTIVE'		=> '%.2f%% จากโพสทั้งหมดของสมาชิก',
 	'POST_PCT_ACTIVE_OWN'	=> '%.2f%% จากโพสทั้งหมดของคุณ',
-	
 	'POST_REPLY'			=> 'ตอบกระทู้',
-	'POST_REPORTED'			=> 'Click to view report',
+	'POST_REPORTED'			=> 'Click to view report', //[TODO]
 	'POST_SUBJECT'			=> 'หัวข้อกระทู้',
 	'POST_TIME'				=> 'เวลา',
 	'POST_TOPIC'			=> 'ตั้งกระทู้ใหม่',
@@ -460,10 +453,13 @@ $lang = array_merge($lang, array(
 	'REGISTERED_USERS'			=> 'ผู้ใช้งานขณะนี้ :',
 	'REG_USERS_ONLINE'			=> 'มี %d สมาชิก และ ',
 	'REG_USERS_TOTAL'			=> 'สมาชิก %d ท่าน ',
+	'REG_USERS_TOTAL_AND'		=> '%d registered and ', //[TODO]
 	'REG_USERS_ZERO_ONLINE'		=> 'มี 0 สมาชิกและ ',
 	'REG_USERS_ZERO_TOTAL'		=> 'ไม่มีผู้ใช้งานที่เป็นสมาชิก, ',
+	'REG_USERS_ZERO_TOTAL_AND'	=> '0 registered and ', //[TODO]
 	'REG_USER_ONLINE'			=> 'มี %d สมาชิก และ ',
 	'REG_USER_TOTAL'			=> 'สมาชิก %d ท่าน, ',
+	'REG_USER_TOTAL_AND'		=> '%d registered and ', //[TODO]
 	'REMOVE'					=> 'ลบทิ้ง',
 	'REMOVE_INSTALL'			=> 'กรุณาลบ, ย้าย, หรือ เปลี่ยนชื่อ ไดเร็คทอรี install ก่อนที่จะเริ่มใช้งานเว็บบอร์ด<br />ถ้ามีไดเร็คทอรี่นี้อยู่ คุณจะสามารถใช้งานได้เพียง Administration Control Panel (ACP) เท่านั้น',
 	'REPLIES'					=> 'ตอบกลับ',
@@ -591,6 +587,7 @@ $lang = array_merge($lang, array(
 	'TOPICS'			    => 'หัวข้อ', //[TODO]
 	'TOPIC_ICON'		    => 'ไอคอนกระทู้', //[TODO]
 	'TOPIC_LOCKED'		    => 'กระทู้นี้ถูกล็อค คุณไม่สามารถแก้ไขข้อความ หรือ ตอบกลับในกระทู้นี้',
+	'TOPIC_LOCKED_SHORT'	=> 'Topic locked', //[TODO]
 	'TOPIC_MOVED'		    => 'ย้ายกระทู้',
 	'TOPIC_REVIEW'		    => 'กระทู้แนะนำ',
 	'TOPIC_TITLE'		    => 'หัวข้อกระทู้',
@@ -621,7 +618,6 @@ $lang = array_merge($lang, array(
 	'UNWATCHED_FORUMS'			=> 'คุณไม่สามารถดู บอร์ด นี้ได้',
 	'UNWATCHED_TOPICS'			=> 'คุณไม่สามารถดูกระทู้นี้ได้',
 	'UNWATCHED_FORUMS_TOPICS'	=> 'คุณไม่มีสิทธิ์เข้าใช้งานในบอร์ด นี้',
-	
 	'UPDATE'				=> 'อัพเดท',
 	'UPLOAD_IN_PROGRESS'	=> 'Upload เรียบร้อยแล้ว',
 	'URL_REDIRECT'			=> 'หากบราว์เซอร์ไม่รองรับการย้อนกลับอัตโนมัติ %sกรุณาคลิกที่นี่ เพื่อย้อนกลับ%s',
@@ -663,13 +659,13 @@ $lang = array_merge($lang, array(
 	'VIEW_TOPIC_STICKY'			=> 'ปักหมุด: ',
 	'VISIT_WEBSITE'				=> 'เข้าชมเว็บไซต์',
 
-	'WARNINGS'			=> 'คำเตือน',
+	'WARNINGS'			=> 'คำเตือน', //[TODO]
 	'WARN_USER'			=> 'เตือนผู้ใช้งาน',
 	'WELCOME_SUBJECT'	=> 'ยินดีต้อนรับสู่บอร์ด %s ',
 	'WEBSITE'			=> 'เว็บไซต์',
-	'WHOIS'				=> 'Whois',
+	'WHOIS'				=> 'Whois', //[TODO]
 	'WHO_IS_ONLINE'		=> 'ผู้ใช้งานขณะนี้',	
-	'WRONG_PASSWORD'	=> 'รหัสไม่ถูกต้อง',
+	'WRONG_PASSWORD'	=> 'รหัสผ่านไม่ถูกต้อง',
     
 	'WRONG_DATA_ICQ'			=> 'หมายเลข ICQ ไม่ถูกต้อง',
 	'WRONG_DATA_JABBER'			=> 'บัญชี Jabber ไม่ถูกต้อง',
