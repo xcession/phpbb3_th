@@ -25,14 +25,27 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
+// DEVELOPERS PLEASE NOTE
+//
+// All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+//
+// Placeholders can now contain order information, e.g. instead of
+// 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+// translators to re-order the output of data while ensuring it remains correct
+//
+// You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+// equally where a string contains only two placeholders which are used to wrap text
+// in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALREADY_DEFAULT_GROUP'				=> 'ขณะนี้กลุ่มผู้ใช้ที่คุณเลือกถูกกำหนดเป็นค่าเริ่มต้นอยู่แล้ว',
-	'ALREADY_IN_GROUP'					=> 'คุณเป็นสมาชิกของกลุ่มผู้ใช้นี่อยู่แล้ว',
-	'ALREADY_IN_GROUP_PENDING'			=> 'คุณถูกร้องขอให้เป็นสมาชิกของกลุ่มผู้ใช้นี้',
+	'ALREADY_DEFAULT_GROUP'			=> 'ขณะนี้กลุ่มผู้ใช้ที่คุณเลือกถูกกำหนดเป็นค่าเริ่มต้นอยู่แล้ว',
+	'ALREADY_IN_GROUP'				=> 'คุณเป็นสมาชิกของกลุ่มผู้ใช้นี่อยู่แล้ว',
+	'ALREADY_IN_GROUP_PENDING'		=> 'คุณถูกร้องขอให้เป็นสมาชิกของกลุ่มผู้ใช้นี้',
 
-	'CHANGED_DEFAULT_GROUP'				=> 'การเปลี่ยนกลุ่มผู้ใช้เรียบร้อยแล้ว',
-	
+	'CANNOT_JOIN_GROUP'				=> 'You are not able to join this group. You are only able to join open and freely open groups.',
+	'CANNOT_RESIGN_GROUP'			=> 'You are not able to resign from this group. You are only able to resign from open and freely open groups.',
+	'CHANGED_DEFAULT_GROUP'			=> 'การเปลี่ยนกลุ่มผู้ใช้เรียบร้อยแล้ว',
+
 	'GROUP_AVATAR'						=> 'ไอคอนประจำกลุ่ม', 
 	'GROUP_CHANGE_DEFAULT'				=> 'คุณแน่ใจไช่ไหม ที่ต้องการเปลี่ยนกลุ่มผู้ใช้ “%s”?',
 	'GROUP_CLOSED'						=> 'ถูกปิด',
@@ -50,7 +63,6 @@ $lang = array_merge($lang, array(
 	'GROUP_JOIN_PENDING_CONFIRM'		=> 'คุณแน่ใจใช่ไหม ที่จะร้องขอการเข้ากลุ่มนี้?',
 	'GROUP_JOINED'						=> 'เข้าร่วมกลุ่มที่เลือกเรียบร้อยแล้ว',
 	'GROUP_JOINED_PENDING'				=> 'การร้องขอการเป็นสมาชิกของกลุ่มนี้เสร็จเรียบร้อยแล้ว. กรุณารอผู้นำกลุ่มอนุมัติการสมัครของคุณ.',
-	
 	'GROUP_LIST'						=> 'จัดการผู้ใช้งาน',
 	'GROUP_MEMBERS'						=> 'สมาชิกกลุ่ม',
 	'GROUP_NAME'						=> 'ชื่อกลุ่ม',
@@ -64,7 +76,7 @@ $lang = array_merge($lang, array(
 	'GROUP_RESIGNED_PENDING'			=> 'Your pending membership was successfully removed from the selected group.',
 	'GROUP_TYPE'						=> 'ประเภทกลุ่ม',
 	'GROUP_UNDISCLOSED'					=> 'ซ่อนกลุ่ม',
-	'FORUM_UNDISCLOSED'					=> 'Moderating hidden forum(s)',
+	'FORUM_UNDISCLOSED'					=> 'Moderating hidden forum(s)', //[TODO]
 
 	'LOGIN_EXPLAIN_GROUP'			=> 'คุณต้องเข้าสู่ระบบก่อน จึงจะดูข้อมูลของกลุ่มสมาชิกนี้ได้',
 
@@ -72,8 +84,8 @@ $lang = array_merge($lang, array(
 	'NOT_LEADER_OF_GROUP'			=> 'The requested operation cannot be taken because you are not a leader of the selected group.',
 	'NOT_MEMBER_OF_GROUP'			=> 'The requested operation cannot be taken because you are not a member of the selected group or your membership has not been approved yet.',
 	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'You are not allowed to resign from your default group.',
-	
-	'PRIMARY_GROUP'		=> 'กลุ่มหลัก',
+
+	'PRIMARY_GROUP'			=> 'กลุ่มหลัก',
 
 	'REMOVE_SELECTED'		=> 'ลบที่เลือก',
 

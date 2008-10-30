@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACTIVE_TOPICS'			=> 'Active topics',
+	'ACTIVE_TOPICS'			=> 'Active topics', //[TODO]
 	'ANNOUNCEMENTS'			=> 'ประกาศ',
 
 	'FORUM_PERMISSIONS'		=> 'การอนุญาตของคุณในบอร์ดนี้',
@@ -46,23 +46,23 @@ $lang = array_merge($lang, array(
 	'ICON_ANNOUNCEMENT'		=> 'ประกาศ',
 	'ICON_STICKY'			=> 'ปักหมุด',
 
-	'LOGIN_NOTIFY_FORUM'	=> 'คุณได้รับแจ้งจาก Topic นี้ให้ login ก่อนจึงจะสามารถเข้าใช้งานได้',
+	'LOGIN_NOTIFY_FORUM'	=> 'คุณได้รับแจ้งจาก Topic นี้ให้ login ก่อนจึงจะสามารถเข้าใช้งานได้', //[TODO]
 
-	'MARK_TOPICS_READ'		=> 'บันทึกว่าอ่านทุกหัวข้อแล้ว',
+	'MARK_TOPICS_READ'		=> 'บันทึกว่าอ่านทุกกระทู้แล้ว',
 
-	'NEW_POSTS_HOT'			=> 'โพสต์ใหม่ [ ยอดฮิต ]',
-	'NEW_POSTS_LOCKED'		=> 'โพสต์ใหม่ [ ปิดหัวข้อ ]',
-	'NO_NEW_POSTS_HOT'		=> 'ไม่มีโพสต์ใหม่ [ ยอดฮิต ]',
-	'NO_NEW_POSTS_LOCKED'	=> 'ไม่มีโพสต์ใหม่ [ ปิดหัวข้อ ]',
-	'NO_READ_ACCESS'		=> 'บอร์ดนี้สงวนสิททิ์ให้เฉพาะสมาชิกเท่านั้น กรุณาสมัครสมาชิกและเข้าสู่ระบบ !',
+	'NEW_POSTS_HOT'			=> 'โพสต์ใหม่ [ ยอดฮิต ]', //[CHECK]
+	'NEW_POSTS_LOCKED'		=> 'โพสต์ใหม่ [ ถูกล็อค ]',
+	'NO_NEW_POSTS_HOT'		=> 'ไม่มีโพสต์ใหม่ [ ยอดฮิต ]', //[CHECK]
+	'NO_NEW_POSTS_LOCKED'	=> 'ไม่มีโพสต์ใหม่ [ ถูกล็อค ]',
+	'NO_READ_ACCESS'		=> 'เว็บบอร์ดนี้อนุญาตเฉพาะสมาชิกเท่านั้น',
 
-	'POST_FORUM_LOCKED'		=> 'บอร์ดนี้ถูกล็อกไว้',
+	'POST_FORUM_LOCKED'		=> 'บอร์ดนี้ถูกล็อค',
 
-	'TOPICS_MARKED'			=> 'บันทึกว่าอ่านทุกหัวข้อแล้ว',
+	'TOPICS_MARKED'			=> 'บันทึกว่าอ่านทุกกระทู้แล้ว',
 
-	'VIEW_FORUM'			=> 'บอร์ด',
-	'VIEW_FORUM_TOPIC'		=> '1 หัวข้อ',
-	'VIEW_FORUM_TOPICS'		=> '%d หัวข้อ',
+	'VIEW_FORUM'			=> 'บอร์ด', //[CHECK]
+	'VIEW_FORUM_TOPIC'		=> '1 กระทู้',
+	'VIEW_FORUM_TOPICS'		=> '%d กระทู้',
 ));
 
 ?>
