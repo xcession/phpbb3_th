@@ -407,8 +407,7 @@ $lang = array_merge($lang, array(
 
 	'FILE_ALREADY_UP_TO_DATE'		=> 'ไฟล์อัพเดทแล้ว',
 	'FILE_DIFF_NOT_ALLOWED'			=> 'ไฟล์ไม่อนุญาตให้มีความแตกต่าง',
-	'FILE_USED'						=> 'ข้อมูลจาก',			
-	      // Single file
+	'FILE_USED'						=> 'ข้อมูลจาก',			// Single file
 	'FILES_CONFLICT'				=> 'ไฟล์ขัดแย้ง',
 	'FILES_CONFLICT_EXPLAIN'		=> 'ในการติดตั้ง phpBB3 ต้องไม่นำไฟล์ของเวอร์ชั่นอื่นมาวางทับ หากต้องการแก้ไขต้องตรวจสอบว่าไฟล์ที่ต้องการคืออะำไร แล้วแก้ปัญหาด้วยมือหรือใช้ Mering Mothod กับทุกไฟล์  และเมื่อได้ดำเนินการแก้ไขแล้วต้องตรวจสอบความถูกต้องด้วย ',
 	'FILES_MODIFIED'				=> 'ไฟล์ที่ถูกแก้ไข',
@@ -457,6 +456,7 @@ $lang = array_merge($lang, array(
 	'NO_UPDATE_FILES'				=> 'ไม่อัพเดทไฟล์ต่อไปนี้',
 	'NO_UPDATE_FILES_EXPLAIN'		=> 'ไฟล์ต่อไปนี้เป็นไฟล์ใหม่หรือได้รับการแก้ไขแต่ไม่พบไดเรกทอรี่ที่ปกติมีไฟล์นี้อยู่ ถ้าไฟล์อยู่ที่อื่นนอกจาก language/ หรือ styles/ การอัพเดทอาจไม่สมบูรณ์',
 	'NO_UPDATE_FILES_OUTDATED'		=> 'ไม่พบอัพเดทไดเรกทอรี่ที่ถูกต้อง กรุณาตรวจสอบว่าคุณได้อัพโหลดไฟล์ที่เกี่ยวข้องแล้ว<br /><br />การติดตั้งของคุณดูเหมือนว่า <strong>ไม่</strong> อัพเดท เวอร์ชันล่าสุด phpBB %1$s, โปรดไปที่ <a href="http://www.phpbb.com/downloads/" rel="external" target="_bank">http://www.phpbb.com/downloads/</a> เพื่อโหลดไฟล์ที่ถูกต้อง เพื่ออัพเดท เวอร์ชั่น %2$s ถึง เวอร์ชั่น %3$s',
+	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'Your version is up to date. There is no need to run the update tool. If you want to make an integrity check on your files make sure you uploaded the correct update files.', //[TODO]
 	'NO_UPDATE_INFO'				=> 'ไม่พบข้อมูลของไฟล์อัพเดท',
 	'NO_UPDATES_REQUIRED'			=> 'ไม่ต้องการการอัพเดท',
 	'NO_VISIBLE_CHANGES'			=> 'ไม่เห็นการเปลี่ยนแปลง',

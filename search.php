@@ -47,12 +47,14 @@ $lang = array_merge($lang, array(
 	'FOUND_SEARCH_MATCHES'		=> 'พบ %d ผลลัพธ์',
 	'FOUND_MORE_SEARCH_MATCHES'	=> 'พบมากกว่า %d ผลลัพธ์',
 
-	'GLOBAL'				=> 'ประกาศทั่วไป',
+	'GLOBAL'				=> 'ประกาศโดยรวม',
 
 	'IGNORED_TERMS'			=> 'ไม่สนใจ',
 	'IGNORED_TERMS_EXPLAIN'	=> 'คำที่คุณใช้ในการค้นหาถูกเพิกเฉย: <strong>%s</strong>.',
 
 	'JUMP_TO_POST'			=> 'ไปที่กระทู้ ',
+
+	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'The board requires you to be registered and logged in to view your own posts.', //[TODO]
 
 	'NO_KEYWORDS'			=> 'คุณต้องระบุคำที่ต้องการค้นหา โดยคำเหล่านั้นต้องประกอบไปด้วยตัวอักษรและต้องไม่มีคำพิเศษ',
 	'NO_RECENT_SEARCHES'	=> 'ไม่สามารถค้นหาได้',

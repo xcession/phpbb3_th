@@ -382,12 +382,17 @@ $lang = array_merge($lang, array(
 	'MAX_LOGIN_ATTEMPTS'			=> 'จำนวนครั้งสูงสุด ที่อนุญาตให้พยายามล็อกอินได้',
 	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'ถ้าผู้ใช้พยายามล็อกอินเกินกว่าค่านี้ จะต้องยืนยันการมองเห็นในการล็อกอินด้วย',
 	'NO_IP_VALIDATION'				=> 'ไม่มี',
+	'NO_REF_VALIDATION'				=> 'None', //[TODO]
 	'PASSWORD_TYPE'					=> 'ความซับซ้อนของ Password',
 	'PASSWORD_TYPE_EXPLAIN'			=> 'กำหนดความซับซ้อนของ Password',
 	'PASS_TYPE_ALPHA'				=> 'ต้องประกอบด้วย ตัวอักษรและตัวเลข',
 	'PASS_TYPE_ANY'					=> 'ไม่มีเงื่อนไข',
 	'PASS_TYPE_CASE'				=> 'ต้องมีอักษรตัวเล็กปนตัวใหญ่',
 	'PASS_TYPE_SYMBOL'				=> 'ต้องมีสัญลักษณ์',
+	'REF_HOST'						=> 'Only validate host', //[TODO]
+	'REF_PATH'						=> 'Also validate path', //[TODO]
+	'REFERER_VALID'					=> 'Validate Referer', //[TODO]
+	'REFERER_VALID_EXPLAIN'			=> 'If enabled, the referer of POST requests will be checked against the host/script path settings. This may cause issues with boards using several domains and or external logins.', //[TODO]
 	'TPL_ALLOW_PHP'					=> 'อนุญาต php ในแม่แบบ',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'ถ้าเลือกใช้ตัวเลือกนี้ , <code>PHP</code> และ <code>INCLUDEPHP</code> โค้ดจะถูกประมวลในแม่แบบ',
 ));
@@ -451,38 +456,5 @@ $lang = array_merge($lang, array(
 	'JAB_USERNAME'				=> 'ชื่อผู้ใช้ Jabber',
 	'JAB_USERNAME_EXPLAIN'		=> 'ระบุชื่อผู้ใช้ที่ลงทะเบียนแล้ว ชื่อนี้จะไม่ถูกตรวจสอบความถูกต้อง',
 ));
-
-// Country Flags
-$lang = array_merge($lang, array(
-	'ACP_FLAG_SETTINGS_EXPLAIN'	=> 'Country flag settings',
-	'FLAGS_PATH'				=> 'Country flag images path',
-	'FLAGS_PATH_EXPLAIN'		=> 'เส้นทางภายใต้ phpBB ไดเรกทอรี่ราก เช่น <samp>images/flags</samp>',
-	'REQUIRE_FLAG' 				=> 'Require country flag field',
-	'REQUIRE_FLAG_EXPLAIN' 		=> 'ผู้ใช้ต้องเลือก country flag เมื่อลงทะเบียนใหม่',
-));
-/*
- * Welcome PM on First Login (WPM)
- * By DualFusion
- */
-$lang = array_merge($lang, array(
-	'ACP_WELCOME_PM_EXPLAIN'	=> 'คุณสามารถกำหนดข้อความที่ผู้ลงทะเบียนใหม่จะได้รับ',
-
-	'WPM_SETTINGS'				=> 'การตั้งค่า',
-	'WPM_ENABLE'				=> 'ใช้คำต้อนรับส่วนตัว',
-	'WPM_SEND_ID'				=> 'PM Sender ID',
-	'WPM_SEND_ID_EXPLAIN'		=> 'The user id of the users that will "send" the PM.',
-
-	'WPM_SUBJECT'				=> 'หัวเรื่อง',
-	'WPM_SUBJECT_EXPLAIN'		=> 'หัวเรื่องของข้อความที่จะถูกส่ง',
-	'WPM_MESSAGE'				=> 'ข้อความ',
-	'WPM_MESSAGE_EXPLAIN'		=> 'เนื้อหาข้อความที่จะถูกส่งไป',
-	'WPM_VARS'					=> 'Dyanamic Variables',
-	'WPM_VARS_EXPLAIN'			=> 'ตัวแปรที่จะแสดงข้อมูลจริงของผู้ลงทะเบียน',
-	'WPM_VARIABLES'				=> '<strong>{USERNAME}</strong>: Username<br /><strong>{USER_IP}</strong>: Users\' IP<br /><strong>{USER_REGDATE}</strong>: Date of registration.<br /><strong>{USER_EMAIL}</strong>: User\'s email.<br /><strong>{SITE_NAME}</strong>: Your site\'s name.<br /><strong>{SITE_DESC}</strong>: Your site\'s description.',
-
-	'WPM_PREVIEW'				=> 'ดูก่อน',
-	'WPM_PREVIEW_EXPLAIN'		=> 'ดูข้อความก่อนที่จะถูกส่ง',
-));
-/* End WPM */
 
 ?>

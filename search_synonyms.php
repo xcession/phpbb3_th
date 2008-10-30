@@ -12,21 +12,18 @@
 *
 */
 
-/**
-* DO NOT CHANGE
-*/
 if (!defined('IN_PHPBB'))
 {
 	exit;
 }
 
 $synonyms = array(
-	'abcense'			=> '???',
-	'abridgement'		=> '???????',
-	'accomodate'		=> '?????????????',
-	'acknowledgment'	=> '?????????',
-	'airplane'			=> '??????????',
-	'allright'			=> '??????? ',
+	'abcense'			=> 'absence',
+	'abridgement'		=> 'abridgment',
+	'accomodate'		=> 'accommodate',
+	'acknowledgment'	=> 'acknowledgement',
+	'airplane'			=> 'aeroplane',
+	'allright'			=> 'alright ',
 	'andy'				=> 'andrew',
 	'anemia'			=> 'anaemia',
 	'anemic'			=> 'anaemic',

@@ -269,6 +269,11 @@ $lang = array_merge($lang, array(
 	'SELECT_ANONYMOUS'		=> 'เลือกผู้ใช้ที่ไม่เปิดเผย',
 	'SELECT_OPTION'			=> 'เลือกตัวเลือก',
 
+	'SETTING_TOO_LOW'		=> 'The entered value for the setting “%1$s” is too low. The minimal allowed value is %2$d.', //[TODO]
+	'SETTING_TOO_BIG'		=> 'The entered value for the setting “%1$s” is too big. The maximal allowed value is %2$d.', //[TODO]
+	'SETTING_TOO_LONG'		=> 'The entered value for the setting “%1$s” is too long. The maximal allowed length is %2$d.', //[TODO]
+	'SETTING_TOO_SHORT'		=> 'The entered value for the setting “%1$s” is not long enough. The minimal allowed length is %2$d.', //[TODO]
+
 	'UCP'					=> 'User Control Panel',
 	'USERNAMES_EXPLAIN'		=> 'ใส่ชื่อผู้ใช้ คนละบรรทัด บรรทัดละหนึ่งคน.',
 	'USER_CONTROL_PANEL'	=> 'User Control Panel',
@@ -681,8 +686,6 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_ADD'			=> '<strong>เพิ่มการกรองคำหยาบ</strong><br />? %s',
 	'LOG_WORD_DELETE'		=> '<strong>ลบการกรองคำหยาบ</strong><br />? %s',
 	'LOG_WORD_EDIT'			=> '<strong>แก้ไขการกรองคำหยาบ</strong><br />? %s',
-	'SUBMIT'				=> ' ตั้งค่า ',
-	)
-);
+));
 
 ?>

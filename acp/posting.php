@@ -105,7 +105,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_POSTING_NO'		=> 'Not on posting page',
 
 
-	
+
 	'EDIT_ICONS'				=> 'แก้ไข icons',
 	'EDIT_SMILIES'				=> 'แก้ไข smilies',
 	'EMOTION'					=> 'Emotion',
@@ -222,7 +222,7 @@ $lang = array_merge($lang, array(
 	'RANK_UPDATED'			=> 'อัพเดทอันดับสำเร็จ',
 ));
 
-// Disอนุญาต Usernames
+// Disallow Usernames
 $lang = array_merge($lang, array(
 	'ACP_DISALLOW_EXPLAIN'	=> 'คุณสามารถควบคุมชื่อผู้ใช้ที่ไม่อนุญาตให้ใช้. ชื่อที่ไม่อนุญาตสามารถมี wildcard * ได้. คุณไม่สามารถกำหนดชื่อผู้ใช้ ที่ลงทะเบียนไปแล้ว, คุณต้องลบชื่อนั้นก่อนแล้วจึงกำหนดใหม่',
 	'ADD_DISALLOW_EXPLAIN'	=> 'คุณสามารถใช้ wildcard * ในการกำหนดชื่อผู้ใช้ที่ไม่อนุญาตได้',

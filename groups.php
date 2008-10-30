@@ -42,8 +42,8 @@ $lang = array_merge($lang, array(
 	'ALREADY_IN_GROUP'				=> 'คุณเป็นสมาชิกของกลุ่มผู้ใช้นี่อยู่แล้ว',
 	'ALREADY_IN_GROUP_PENDING'		=> 'คุณถูกร้องขอให้เป็นสมาชิกของกลุ่มผู้ใช้นี้',
 
-	'CANNOT_JOIN_GROUP'				=> 'You are not able to join this group. You are only able to join open and freely open groups.',
-	'CANNOT_RESIGN_GROUP'			=> 'You are not able to resign from this group. You are only able to resign from open and freely open groups.',
+	'CANNOT_JOIN_GROUP'				=> 'You are not able to join this group. You are only able to join open and freely open groups.', //[TODO]
+	'CANNOT_RESIGN_GROUP'			=> 'You are not able to resign from this group. You are only able to resign from open and freely open groups.', //[TODO]
 	'CHANGED_DEFAULT_GROUP'			=> 'การเปลี่ยนกลุ่มผู้ใช้เรียบร้อยแล้ว',
 
 	'GROUP_AVATAR'						=> 'ไอคอนประจำกลุ่ม', 
@@ -71,9 +71,9 @@ $lang = array_merge($lang, array(
 	'GROUP_RESIGN_MEMBERSHIP'			=> 'ออกจากสมาชิกกลุ่ม',
 	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'คุณแน่ใจใช่ไหมที่ต้องการออกจากการเป็นสมาชิกของกลุ่มที่คุณเลือก?',
 	'GROUP_RESIGN_PENDING'				=> 'Resign a pending group membership',
-	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Are you sure you want to resign your pending membership from the selected group?',
+	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Are you sure you want to resign your pending membership from the selected group?', //[TODO]
 	'GROUP_RESIGNED_MEMBERSHIP'			=> 'คุณได้ย้ายออกจากกลุ่มนี้เรียบร้อยแล้ว.',
-	'GROUP_RESIGNED_PENDING'			=> 'Your pending membership was successfully removed from the selected group.',
+	'GROUP_RESIGNED_PENDING'			=> 'Your pending membership was successfully removed from the selected group.', //[TODO]
 	'GROUP_TYPE'						=> 'ประเภทกลุ่ม',
 	'GROUP_UNDISCLOSED'					=> 'ซ่อนกลุ่ม',
 	'FORUM_UNDISCLOSED'					=> 'Moderating hidden forum(s)', //[TODO]
@@ -81,9 +81,9 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_GROUP'			=> 'คุณต้องเข้าสู่ระบบก่อน จึงจะดูข้อมูลของกลุ่มสมาชิกนี้ได้',
 
 	'NO_LEADERS'					=> 'คุณไม่ได้เป็นผู้นำของกลุ่มใดเลย',
-	'NOT_LEADER_OF_GROUP'			=> 'The requested operation cannot be taken because you are not a leader of the selected group.',
-	'NOT_MEMBER_OF_GROUP'			=> 'The requested operation cannot be taken because you are not a member of the selected group or your membership has not been approved yet.',
-	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'You are not allowed to resign from your default group.',
+	'NOT_LEADER_OF_GROUP'			=> 'The requested operation cannot be taken because you are not a leader of the selected group.', //[TODO]
+	'NOT_MEMBER_OF_GROUP'			=> 'The requested operation cannot be taken because you are not a member of the selected group or your membership has not been approved yet.', //[TODO]
+	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'You are not allowed to resign from your default group.', //[TODO]
 
 	'PRIMARY_GROUP'			=> 'กลุ่มหลัก',
 
@@ -91,8 +91,8 @@ $lang = array_merge($lang, array(
 
 	'USER_GROUP_CHANGE'			=> 'จาก “%1$s” กลุ่ม “%2$s”',
 	'USER_GROUP_DEMOTE'			=> 'ความเป็นผู้นำถูกลดระดัับ',
-	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Are you sure you want to demote as group leader from the selected group?',
-	'USER_GROUP_DEMOTED'		=> 'Successfully demoted your leadership.',
+	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Are you sure you want to demote as group leader from the selected group?', //[TODO]
+	'USER_GROUP_DEMOTED'		=> 'Successfully demoted your leadership.', //[TODO]
 ));
 
 ?>

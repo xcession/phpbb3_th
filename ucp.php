@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 
 7. หากมีการเปลี่ยนแปลงข้อตกลงในการให้บริการ “%1$s” จะแจ้งให้ท่านทราบ โดยจะประกาศ ข้อตกลงใหม่ขึ้นหน้าจอ เพื่อให้ท่านรับทราบ และท่านจะใช้บริการของ “%1$s” ต่อไปได้ เมื่อท่านยอมรับข้อตกลงใหม่ของ “%1$s”  โดยการกดปุ่ม " ยอมรับ" หาก  “%1$s” พบว่าสมาชิก ของ  “%1$s” ละเมิดข้อตกลงที่ได้กำหนดไว้  “%1$s”  ขอสงวนสิทธิ์ในการระงับการให้บริการ โดยมิต้องแจ้งให้ทราบล่วงหน้า
 	',
-	
+
 	'PRIVACY_POLICY'		=> 'นโบบายนี้อธิบายถึงรายละเอียดว่า “%1$s” ร่วมกับบริษัทในเครือ  ((ในที่นี้คือ “เรา”, “ของเรา” , “%1$s”, “%2$s”) และ phpBB (ในที่นี้คือ “พวกเขา”, “ของพวกเขา”,  “phpBB software”, “www.phpbb.com”, “phpBB Group”, “phpBB Teams”) ใช้ข้อมูลที่เก็บรวบรวมจากการใช้ของคุณอย่างไร (ในที่นี้คือ “ข้อมูลของคุณ”)<br />
 	<br />
 	ข้อมูลของคุณถูกเก็บรวบรวมด้วยวิธีการ 2 วิธี 1. การใช้คุกกี้ คุกกี้สองไฟล์แรกจะมี user-id และ session-id อยู่ คุกกี้ไฟล์ที่สามจะสร้างเมื่อคุณอ่านกระทู้ภายใน “%1$s” เพื่อใช้เก็บว่ากระทู้ไหนที่ถูกอ่าน เพื่อปรับปรุงความประทับใจในการใช้ของผู้ใช้ของคุณ <br />
@@ -123,6 +123,7 @@ $lang = array_merge($lang, array(
 
 	'CANNOT_EDIT_MESSAGE_TIME'	=> 'คุณไม่สามารถลบหรือแก้ไขข้อความนี้ได้อีกต่อไปแล้ว',
 	'CANNOT_MOVE_TO_SAME_FOLDER'=> 'ไม่สามารถย้ายข้อความไปยังโฟลเดอร์ที่กำลังจะถูกลบได้',
+	'CANNOT_MOVE_FROM_SPECIAL'	=> 'Messages cannot be moved from the outbox.', //[TODO]
 	'CANNOT_RENAME_FOLDER'		=> 'ไม่สามารถเปลี่ยนชื่อโฟลเดอร์นี้ได้',
 	'CANNOT_REMOVE_FOLDER'		=> 'ไม่สามารถลบโฟลเดอร์นี้ได้',
 	'CHANGE_DEFAULT_GROUP'		=> 'เปลี่ยนกลุ่มมาตรฐาน',
@@ -234,6 +235,7 @@ $lang = array_merge($lang, array(
 
 	'IF_FOLDER_FULL'			=> 'โฟลเดอร์เต็ม',
 	'IMPORTANT_NEWS'			=> 'ประกาศสำคัญ',
+	'INVALID_USER_BIRTHDAY'			=> 'The entered birthday is not a valid date.', //[TODO]
 	'INVALID_CHARS_USERNAME'	=> 'Username ประกอบได้ตัวอักษรที่ไม่ได้รับอนุญาตให้ใช้',
 	'INVALID_CHARS_NEW_PASSWORD'=> 'รหัสผ่านประกอบด้วยตัวอักษรที่ไม่ได้รับอนุญาตให้ใช้',
 	'ITEMS_REQUIRED'			=> 'ข้อมูลที่ระบุเครื่องหมาย  * เป็นข้อมูลที่ระบบต้องการให้กรอก',
@@ -245,7 +247,6 @@ $lang = array_merge($lang, array(
 	'LINK_REMOTE_AVATAR_EXPLAIN'=> 'ระบุ URL ที่อยู่ของภาพประจำตัวที่คุณต้องการเชื่อมโยง',
 	'LINK_REMOTE_SIZE'			=> 'ความกว้างยาวของภาพประจำตัว',
 	'LINK_REMOTE_SIZE_EXPLAIN'	=> 'กำหนดขนาดของภาพประจำตัว, ปล่อยค่านี้ให้ว่าง เพื่อให้ทำการจตรวจสอบโดยอัตโนมัติ',
-	'LOGIN_ACTIVATE'			=> 'กรุณาเข้าระบบอีกครั้ง เพื่อเข้าใช้งานระบบ',
 	'LOGIN_EXPLAIN_UCP'			=> 'กรุณาเข้าระบบ เพื่อเข้าสู่หน้าแป้นควบคุม',
 	'LOGIN_REDIRECT'			=> 'เข้าสู่ระบบเรียบร้อยแล้ว',
 	'LOGOUT_FAILED'				=> 'คุณไม่สามารถออกจากระบบได้, เพราะคำร้องขอของคุณไม่สัมพันธ์กับ session กรุณาติดต่อผู้ดูแลระบบหากคุณพบปัญหานี้อีก',
@@ -307,6 +308,7 @@ $lang = array_merge($lang, array(
 	'NO_BCC_RECIPIENT'			=> 'ไม่มี',
 	'NO_BOOKMARKS'				=> 'คุณไม่มีรายการโปรด',
 	'NO_BOOKMARKS_SELECTED'		=> 'You have selected no bookmarks.',
+	'NO_EDIT_READ_MESSAGE'		=> 'Private message cannot be edited because it has already been read.', //[TODO]
 	'NO_EMAIL_USER'				=> 'ไม่สามารถหา e-mail/Username นี้',
 	'NO_FOES'					=> 'ไม่มีรายชื่อศัตรู',
 	'NO_FRIENDS'				=> 'ไม่มีรายชื่อเพื่อน',
@@ -496,8 +498,6 @@ $lang = array_merge($lang, array(
 	'WATCHED_FORUMS'			=> 'ดู Frums',
 	'WATCHED_TOPICS'			=> 'ดูกระทู้',
 	'WRONG_ACTIVATION'			=> 'Password ไม่สามารถจับคู่กับค่าใดในฐานข้อมูลได้',
-	'WRONG_USER'				=> 'บัญชีรายชื่อของคุณจะสามารถใช้งานได้อีกครั้งโดยผู้ดูแลระบบ ซึ่งผู้ดูแลระบบได้รับข้อความนี้อัตโนมัิัติ',
-
 
 	'YOUR_DETAILS'				=> 'ข้อมูลของท่าน',
 	'YOUR_FOES'					=> 'รายชื่อศัตรู',
@@ -548,8 +548,6 @@ $lang = array_merge($lang, array(
 	'NO_MEMBER'		=> 'ไม่มีกลุ่มสมาชิก',
 	'NO_PENDING'	=> 'ไม่มีสมาชิกคงค้าง',
 	'NO_NONMEMBER'	=> 'ไม่มีสมาชิกในกลุ่ม',
-	'SUBMIT'		=> ' Submit ',
-	
 ));
 
 ?>

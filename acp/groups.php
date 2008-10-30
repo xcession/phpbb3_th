@@ -109,7 +109,6 @@ $lang = array_merge($lang, array(
 	'NO_GROUPS_CREATED'			=> 'กลุ่มยังไม่ถูกสร้าง',
 	'NO_PERMISSIONS'			=> 'ไม่คัดลอกการอนุญาต',
 	'NO_USERS'					=> 'คุณยังไม่ได้กรอกผู้ใช้ใดๆ',
-
 	'NO_USERS_ADDED'			=> 'ไม่มีการเพิ่ม User ในกลุ่มนี้.',
 	'NO_VALID_USERS'			=> 'ไม่ได้เลือก user ในการการทำคำสั่งนี้.',
 
