@@ -38,20 +38,20 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALREADY_DEFAULT_GROUP'			=> 'ขณะนี้กลุ่มผู้ใช้ที่คุณเลือกถูกกำหนดเป็นค่าเริ่มต้นอยู่แล้ว',
-	'ALREADY_IN_GROUP'				=> 'คุณเป็นสมาชิกของกลุ่มผู้ใช้นี่อยู่แล้ว',
-	'ALREADY_IN_GROUP_PENDING'		=> 'คุณถูกร้องขอให้เป็นสมาชิกของกลุ่มผู้ใช้นี้',
+	'ALREADY_DEFAULT_GROUP'			=> 'กลุ่มที่คุณเลือกถูกกำหนดเป็นค่าเริ่มต้นอยู่แล้ว',
+	'ALREADY_IN_GROUP'				=> 'คุณเป็นสมาชิกของกลุ่มอยู่แล้ว',
+	'ALREADY_IN_GROUP_PENDING'		=> 'คุณได้ร้องขอเพื่อเป็นสมาชิกของกลุ่มนี้แล้ว',
 
 	'CANNOT_JOIN_GROUP'				=> 'You are not able to join this group. You are only able to join open and freely open groups.', //[TODO]
 	'CANNOT_RESIGN_GROUP'			=> 'You are not able to resign from this group. You are only able to resign from open and freely open groups.', //[TODO]
-	'CHANGED_DEFAULT_GROUP'			=> 'การเปลี่ยนกลุ่มผู้ใช้เรียบร้อยแล้ว',
+	'CHANGED_DEFAULT_GROUP'			=> 'การเปลี่ยนแปลงกลุ่มเสร็จสมบูรณ์',
 
-	'GROUP_AVATAR'						=> 'ไอคอนประจำกลุ่ม', 
-	'GROUP_CHANGE_DEFAULT'				=> 'คุณแน่ใจไช่ไหม ที่ต้องการเปลี่ยนกลุ่มผู้ใช้ “%s”?',
-	'GROUP_CLOSED'						=> 'ถูกปิด',
+	'GROUP_AVATAR'						=> 'Avatar ประจำกลุ่ม', 
+	'GROUP_CHANGE_DEFAULT'				=> 'คุณแน่ใจไช่ไหม ที่จะเปลี่ยนกลุ่มเป็น “%s”?',
+	'GROUP_CLOSED'						=> 'ถูกปิด', //[CHECK]
 	'GROUP_DESC'						=> 'รายละเอียดกลุ่ม',
 	'GROUP_HIDDEN'						=> 'ซ่อน',
-	'GROUP_INFORMATION'					=> 'ข้อมูลของกลุ่มผุ้ใช้', 
+	'GROUP_INFORMATION'					=> 'ข้อมูลของกลุ่ม',
 	'GROUP_IS_CLOSED'					=> 'กลุ่มนี้ถูกปิด,สมาชิกใหม่สามารถเข้ามาร่วมเป็นสมาชิกได้ ก็ต่อเมื่อผู้นำกลุ่มเชื้อเชิญเท่านั้น',
 	'GROUP_IS_FREE'						=> 'กลุ่มนี้เปิดอิสระ, ยินดีต้อนรับสมาชิกใหม่', 
 	'GROUP_IS_HIDDEN'					=> 'กลุ่มนี้ถูกซ่อน, มีเพียงสมาชิกเท่านั้นที่สามารถเห็นสมาชิกท่านอื่นได้',
@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 	'REMOVE_SELECTED'		=> 'ลบที่เลือก',
 
 	'USER_GROUP_CHANGE'			=> 'จาก “%1$s” กลุ่ม “%2$s”',
-	'USER_GROUP_DEMOTE'			=> 'ความเป็นผู้นำถูกลดระดัับ',
+	'USER_GROUP_DEMOTE'			=> 'ความเป็นผู้นำถูกลดระดับ', //[CHECK]
 	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Are you sure you want to demote as group leader from the selected group?', //[TODO]
 	'USER_GROUP_DEMOTED'		=> 'Successfully demoted your leadership.', //[TODO]
 ));
