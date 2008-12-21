@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'USER_LANG'			=> 'th',
-    
+
 	'1_DAY'			=> '1 วัน',
 	'1_MONTH'		=> '1 เดือน',
 	'1_YEAR'		=> '1 ปี',
@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'3_MONTHS'		=> '3 เดือน',
 	'6_MONTHS'		=> '6 เดือน',
 	'7_DAYS'		=> '7 วัน',
-    
+
 	'ACCOUNT_ALREADY_ACTIVATED'		=> 'บัญชีของคุณได้รับการยืนยันแล้ว',
 	'ACCOUNT_DEACTIVATED'			=> 'บัญชีของคุณได้ถูกระงับชั่วคราว มีเพียง Administrator เท่านั้น ที่จะสามารถยืนยันบัญชีให้คุณได้',
 	'ACCOUNT_NOT_ACTIVATED'			=> 'บัญชีของคุณยังไม่ได้รับการยืนยัน',
@@ -78,7 +78,7 @@ $lang = array_merge($lang, array(
 	'ASCENDING'						=> 'น้อยไปมาก',
 	'ATTACHMENTS'					=> 'แนบไฟล์',
 	'ATTACHED_IMAGE_NOT_IMAGE'		=> 'ไม่รู้จักชนิดของไฟล์รูปภาพที่คุณแนบมา',
-	'AUTHOR'						=> 'เจ้าของ', //[CHECK]
+	'AUTHOR'						=> 'เจ้าของ',
 	'AUTH_NO_PROFILE_CREATED'		=> 'สร้างข้อมูลส่วนตัวไม่สำเร็จ',
 	'AVATAR_DISALLOWED_CONTENT'		=> 'การอัพโหลดถูกปฎิเสธ เนื่องจากเนื้อหาของไฟล์',
 	'AVATAR_DISALLOWED_EXTENSION'	=> 'ไฟล์รูปภาพนี้ไม่อนุญาตให้ถูกแสดง เนื่องจากมีนามสกุล <strong>%s</strong>',
@@ -89,7 +89,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_NO_SIZE'				=> 'ไม่สามารถทราบขนาดความกว้างและความสูงของภาพ Avatar ได้ กรุณาระบุข้อมูลเหล่านี้ด้วยตัวเอง',
 	'AVATAR_PARTIAL_UPLOAD'			=> 'ไฟล์ถูก Upload ได้บางส่วนเท่านั้น',
 	'AVATAR_PHP_SIZE_NA'			=> 'ภาพ Avatar มีขนาดใหญ่เกินไป <br />ขนาดของภาพในการ Upload สามารถเซตได้ที่ php.ini',
-	'AVATAR_PHP_SIZE_OVERRUN'		=> 'ภาพ Avatar มีขนาดใหญ่เกินไป ขนาดสูงสุดที่สามารถ Upload ได้คือ %d MB<br />โปรดจำไว้ว่ามันถูกบันทึกไว้ใน php.ini และไม่สามารถยกเลิกได้ ', //[TODO]
+	'AVATAR_PHP_SIZE_OVERRUN'		=> 'ภาพ Avatar มีขนาดใหญ่เกินไป ขนาดสูงสุดที่สามารถ Upload ได้คือ %d MB<br />โปรดจำไว้ว่ามันถูกบันทึกไว้ใน php.ini และไม่สามารถยกเลิกได้ ',
 	'AVATAR_URL_INVALID'			=> 'URL นี้ไม่ถูกต้อง',
 	'AVATAR_URL_NOT_FOUND'			=> 'ไม่พบไฟล์ที่ระบุ',
 	'AVATAR_WRONG_FILESIZE'			=> 'ภาพ Avatar ควรมีขนาดระหว่าง 0 ถึง %1d %2s',
@@ -120,7 +120,7 @@ $lang = array_merge($lang, array(
 	'CHANGING_PREFERENCES'	=> 'ตั้งค่าคุณสมบัติของบอร์ด',
 	'CHANGING_PROFILE'		=> 'การตั้งค่าส่วนตัว',
 	'CLICK_VIEW_PRIVMSG'	=> '%sไปยัง Inbox%s',
-	'COLLAPSE_VIEW'			=> 'มุมมองที่พับได้', //[CHECK]
+	'COLLAPSE_VIEW'			=> 'มุมมองแบบพับได้',
 	'CLOSE_WINDOW'			=> 'ปิดหน้าต่างนี้',
 	'COLOUR_SWATCH'			=> 'เปลี่ยนสี', //[CHECK]
 	'COMMA_SEPARATOR'		=> ', ',	// Used in pagination of ACP & prosilver, use localised comma if appropriate, eg: Ideographic or Arabic
@@ -226,7 +226,7 @@ $lang = array_merge($lang, array(
 	'FTP_TIMEOUT_EXPLAIN'			=> 'ระยะเวลาในหน่วยวินาที ที่ระบบจะรอการตอบกลับจากเซิร์ฟเวอร์', //[CHECK]
 	'FTP_USERNAME'					=> 'ชื่อผู้ใช้ FTP',
 	'FTP_USERNAME_EXPLAIN'			=> 'ชื่อผู้ใช้ที่ใช้ในการเชื่อมต่อไปยังเซิร์ฟเวอร์ของคุณ',
-	
+
 	'GENERAL_ERROR'				=> 'ข้อผิดพลาดทั่วไป',
 	'GO'						=> 'ไป',
 	'GOTO_PAGE'					=> 'ไปที่หน้า',
@@ -291,7 +291,7 @@ $lang = array_merge($lang, array(
 	'LAST_UPDATED'						=> 'อัพเดทล่าสุด',
 	'LAST_VISIT'						=> 'เข้าชมล่าสุด',
 	'LDAP_NO_LDAP_EXTENSION'			=> 'LDAP extension ไม่สามารถใช้งานได้',
-	'LDAP_NO_SERVER_CONNECTION'			=> 'ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ LDAP', 
+	'LDAP_NO_SERVER_CONNECTION'			=> 'ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ LDAP',
 	'LEGEND'							=> 'กลุ่ม', //[CHECK]
 	'LOCATION'							=> 'ที่อยู่',
 	'LOCK_POST'							=> 'ล็อคโพสต์',
@@ -514,7 +514,7 @@ $lang = array_merge($lang, array(
 	'SELECT_DESTINATION_FORUM'	=> 'กรุณาเลือกบอร์ดเป้าหมาย',
 	'SELECT_FORUM'				=> 'เลือกบอร์ด',
 	'SEND_EMAIL'				=> 'E-mail',
-	'SEND_EMAIL_USER'			=> 'E-mail',	// Used as: {L_SEND_EMAIL_USER} {USERNAME} -> E-mail UserX	
+	'SEND_EMAIL_USER'			=> 'E-mail',	// Used as: {L_SEND_EMAIL_USER} {USERNAME} -> E-mail UserX
 	'SEND_PRIVATE_MESSAGE'		=> 'ส่งข้อความส่วนตัว',
 	'SETTINGS'					=> 'ตั้งค่า',
 	'SIGNATURE'					=> 'ลายเซ็นต์',
@@ -564,7 +564,7 @@ $lang = array_merge($lang, array(
 	'TOO_LONG_YIM'					=> 'ชื่อผู้ใช้ Yahoo! Messenger ยาวเกินไป',
 
 	'TOO_MANY_VOTE_OPTIONS'			=> 'You have tried to vote for too many options', //[TODO]
-    
+
 	'TOO_SHORT_AIM'					=> 'ชื่อผู้ใช้ AIM สั้นเกินไป',
 	'TOO_SHORT_CONFIRM_CODE'		=> 'รหัสสำหรับการยืนยันสั้นเกินไป',
 	'TOO_SHORT_DATEFORMAT'			=> 'รูปแบบวัน สั้นเกินไป',
@@ -664,15 +664,15 @@ $lang = array_merge($lang, array(
 	'WELCOME_SUBJECT'	=> 'ยินดีต้อนรับสู่บอร์ด %s ',
 	'WEBSITE'			=> 'เว็บไซต์',
 	'WHOIS'				=> 'Whois',
-	'WHO_IS_ONLINE'		=> 'ผู้ใช้งานขณะนี้',	
+	'WHO_IS_ONLINE'		=> 'ผู้ใช้งานขณะนี้',
 	'WRONG_PASSWORD'	=> 'รหัสผ่านไม่ถูกต้อง',
-    
+
 	'WRONG_DATA_ICQ'		=> 'หมายเลข ICQ ไม่ถูกต้อง',
 	'WRONG_DATA_JABBER'		=> 'บัญชี Jabber ไม่ถูกต้อง',
 	'WRONG_DATA_LANG'		=> 'ภาษานี้ไม่ถูกต้อง',
 	'WRONG_DATA_WEBSITE'	=> 'ที่อยู่เวบไซต์ไม่ถูกต้อง, ต้องประกอบด้วยโปรโตคอล  ตัวอย่างเช่น http://www.example.com/',
 	'WROTE'					=> 'เขียน',
-	
+
 	'YEAR'				=> 'ปี',
 	'YEAR_MONTH_DAY'	=> '(ปี-เดือน-วัน)',
 	'YES'				=> 'ใช่',
@@ -686,7 +686,7 @@ $lang = array_merge($lang, array(
 		'TODAY'			=> 'วันนี้',
 		'TOMORROW'		=> 'พรุ่งนี้',
 		'YESTERDAY'		=> 'เมื่อวานนี้',
-        
+
 		'Sunday'		=> 'วันอาทิตย์',
 		'Monday'		=> 'วันจันทร์',
 		'Tuesday'		=> 'วันอังคาร',
@@ -694,7 +694,7 @@ $lang = array_merge($lang, array(
 		'Thursday'		=> 'วันพฤหัสบดี',
 		'Friday'		=> 'วันศุกร์',
 		'Saturday'		=> 'วันเสาร์',
-        
+
 		'Sun'			=> 'อาทิตย์ ',
 		'Mon'			=> 'จันทร์',
 		'Tue'			=> 'อังคาร',
@@ -702,7 +702,7 @@ $lang = array_merge($lang, array(
 		'Thu'			=> 'พฤหัสฯ',
 		'Fri'			=> 'ศุกร์',
 		'Sat'			=> 'เสาร์',
-        
+
 		'January'		=> 'มกราคม',
 		'February'		=> 'กุมถาพันธ์',
 		'March'			=> 'มีนาคม',
@@ -715,7 +715,7 @@ $lang = array_merge($lang, array(
 		'October'		=> 'ตุลาคม',
 		'November'		=> 'พฤศจิกายน',
 		'December'		=> 'ธันวาคม',
-        
+
 		'Jan'			=> 'ม.ค.',
 		'Feb'			=> 'ก.พ.',
 		'Mar'			=> 'มี.ค.',
@@ -814,7 +814,7 @@ $lang = array_merge($lang, array(
 		'13'	=> '[UTC + 13] Tonga Time, Phoenix Islands Time',
 		'14'	=> '[UTC + 14] Line Island Time',
 	),
-	
+
     // The value is only an example and will get replaced by the current time on view
     'dateformats'	            => array(
 		'd M Y, H:i'            => '01 ม.ค. 2007, 13:37',
