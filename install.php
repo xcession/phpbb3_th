@@ -6,7 +6,7 @@
 * install [Thai]
 *
 * @package language
-* @version $Id: install.php 8598 2008-06-04 15:37:06Z naderman $
+* @version $Id: install.php 9177 2008-12-05 11:36:51Z acydburn $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_TEST'				=> 'ตรวจสอบการติดตั้ง',
 	'ADMIN_USERNAME'			=> 'ชื่อผู้ใช้ของผู้ดูแลระบบ',
 	'ADMIN_USERNAME_EXPLAIN'	=> 'กรุณาระบุชื่อผู้ใช้ให้อยู่ระหว่าง 3- 20 ตัวอักษร',
-	'APP_MAGICK'				=> 'Imagemagick support [ Attachments ]',
+	'APP_MAGICK'				=> 'Imagemagick support [ Attachments ]', //TODO
 	'AUTHOR_NOTES'				=> 'ข้อแนะนำ<br />» %s',
 	'AVAILABLE'					=> 'ใช้งานได้',
 	'AVAILABLE_CONVERTORS'		=> 'ตัวนำเข้าที่ี่มีอยู่',
@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'CATEGORY'					=> 'หมวดหมู่',
 	'CACHE_STORE'				=> 'ประเภทของระบบแคช',
 	'CACHE_STORE_EXPLAIN'		=> 'ตำแหน่งของข้อมูล แคชที่ต้องการกำหนด , ระบบไฟล์ที่เหมาะสมที่สุด',
-	'CAT_CONVERT'				=> 'Convert ',
+	'CAT_CONVERT'				=> 'Convert ', //TODO
 	'CAT_INSTALL'				=> 'การติดตั้ง',
 	'CAT_OVERVIEW'				=> 'เริ่มต้น',
 	'CAT_UPDATE'				=> 'อัพเดท',
@@ -143,7 +143,7 @@ $lang = array_merge($lang, array(
 	'DIRECTORIES_AND_FILES'		=> 'เซตอัพไดเรกทอรี่และไฟล์',
 	'DISABLE_KEYS'				=> 'ยกเลิกการใช้คีย์',
 	'DLL_FIREBIRD'				=> 'Firebird',
-	'DLL_FTP'					=> 'รองรับการ Remote [ การติดตั้ง]',
+	'DLL_FTP'					=> 'รองรับการ Remote [ การติดตั้ง]', //CHECK
 	'DLL_GD'					=> 'รองรับ GD Graphic [ Visual Confirmation ]',
 	'DLL_MBSTRING'				=> 'รองรับ Multi-byte character',
 	'DLL_MSSQL'					=> 'MSSQL Server 2000+',
@@ -153,7 +153,7 @@ $lang = array_merge($lang, array(
 	'DLL_ORACLE'				=> 'Oracle',
 	'DLL_POSTGRES'				=> 'PostgreSQL 7.x/8.x',
 	'DLL_SQLITE'				=> 'SQLite',
-	'DLL_XML'					=> 'XML support [ Jabber ]',
+	'DLL_XML'					=> 'XML support [ Jabber ]', //CHECK
 	'DLL_ZLIB'					=> 'สนับสนุนการบีบอัด zlib [ gz, .tar.gz, .zip ]',
 	'DL_CONFIG'					=> 'ดาวน์โหลดไฟล์การตั้งค่า',
 	'DL_CONFIG_EXPLAIN'			=> 'ท่านจะต้องดาวน์โหลดไฟล์ config.php ลงคอมพิวเตอร์ของท่าน จากนั้นท่านจะต้องอัพโหลดไฟล์ config.php ไปทับไฟล์เก่าในไดเรกทอรี่ของ phpBB 3.0 กรุณาจำไว้ว่าจะต้องอัพโหลดไฟล์ในรูปแบบ ASCII (กรุณาอ่านคู่มือของโปรแกรม FTP ที่ท่านใช้)<br />เมื่อท่านอัพโหลดเสร็จเรียบร้อยแล้ว ให้คลิกปุ่ม ทำ  เพื่อไปยังขั้นตอนถัดไป',
@@ -196,8 +196,8 @@ $lang = array_merge($lang, array(
 	'INSTALL_INTRO_BODY'		=> 'ตัวเลือกนี้ใช้สำหรับติดตั้ง phpBB ใหม่ลงในเซิร์ฟเวอร์ของท่าน</p><p>ก่อนจะเริ่มการติดตั้ง กรุณาเตรียมข้อมูลรายละเอียดของฐานข้อมูลก่อน ถ้าท่านไม่ทราบข้อมูลรายละเอียดของฐานข้อมูล กรุณาติดต่อผู้ให้บริการเซิร์ฟเวอร์ที่ท่านใช้อยู่ โดยสิ่งที่ท่านจะต้องทราบมีดังนี้:</p>
 
 	<ul>
-	<li>ชนิดฐานข้อมูล - ชนิดของฐานข้อมูลที่ต้องใช้</li>
-	<li>ชื่อ hostname หรือ DSN - ที่อยู่ของฐานข้อมูล</li>
+		<li>ชนิดฐานข้อมูล - ชนิดของฐานข้อมูลที่ต้องใช้</li>
+		<li>ชื่อ hostname หรือ DSN - ที่อยู่ของฐานข้อมูล</li>
 		<li>หมายเลขพอร์ตของฐานข้อมูล - หมายเลขพอร์ตของฐานข้อมูล (อาจไม่จำเป็นต้องใช้ก็ได้ สามารถใช้ค่าที่ระบบ กำหนดให้ได้).</li>
 		<li>ชื่อฐานข้อมูล - ชื่อฐานข้อมูลที่เก็บไว้ในเครื่อง Server </li>
 		<li>Username และ Password สำหรับฐานข้อมูล - ใช้สำหรับเข้าระบบฐานข้อมูล</li>
@@ -217,7 +217,7 @@ $lang = array_merge($lang, array(
 	
 	<p>ซึ่งหน้าถัดไปนี้จะแสดงเฉพาะฐานข้อมูลที่จะสามารถถูกนำมาใช้งานได้เท่านั้น',
 	'INSTALL_INTRO_NEXT'		=> 'เพื่อเริ่มต้นการติดตั้ง โปรดกดปุ่มข้างล่าง',
-	'INSTALL_LOGIN'				=> ' Login ',
+	'INSTALL_LOGIN'				=> ' Login ', //TODO
 	'INSTALL_NEXT'				=> 'ขั้นถัดไป',
 	'INSTALL_NEXT_FAIL'			=> 'มีความผิดพลาด คุณควรแก้ไขให้ถูกต้องก่อนที่จะไปขั้นถัดไป ความผิดพลาดอาจจะทำให้การติดตั้งไม่สำเร็จ',
 	'INSTALL_NEXT_PASS'			=> 'ไม่พบข้อผิดพลาด คุณพร้อมที่จะไปขั้นถัดไป',
@@ -257,16 +257,16 @@ $lang = array_merge($lang, array(
 	'LONG_SCRIPT_EXECUTION'		=> 'ไม่สามารถหยุดการทำงานของ Script ได้',
 
 	// mbstring
-	'MBSTRING_CHECK'						=> '<samp>mbstring</samp> extension check',
-	'MBSTRING_CHECK_EXPLAIN'				=> '<strong>Required</strong> - <samp>mbstring</samp> เป็น Extension ของ PHP ซึ่งจัดการเกี่ยวกับ multibyte string functions. phpBB ไม่สามารถใช้งานในส่วนของ Extension นี้ได้ กรุณาปิดการใช้งาน',
-	'MBSTRING_FUNC_OVERLOAD'				=> 'Function overloading',
-	'MBSTRING_FUNC_OVERLOAD_EXPLAIN'		=> '<var>mbstring.func_overload</var> ต้องกำหนดเพียง 0 or 4.',
-	'MBSTRING_ENCODING_TRANSLATION'			=> 'Transparent character encoding',
-	'MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> ต้องกำหนดค่าเป็น 0.',
-	'MBSTRING_HTTP_INPUT'					=> 'HTTP input character conversion',
-	'MBSTRING_HTTP_INPUT_EXPLAIN'			=> '<var>mbstring.http_input</var> ต้องกำหนดค่าเป็น <samp>ใช่</samp>.',
-	'MBSTRING_HTTP_OUTPUT'					=> 'HTTP output character conversion',
-	'MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> ต้องกำหนดค่าเป็น  <samp>ใช่</samp>.',
+	'MBSTRING_CHECK'						=> '<samp>mbstring</samp> extension check', //TODO
+	'MBSTRING_CHECK_EXPLAIN'				=> '<strong>Required</strong> - <samp>mbstring</samp> เป็น Extension ของ PHP ซึ่งจัดการเกี่ยวกับ multibyte string functions. phpBB ไม่สามารถใช้งานในส่วนของ Extension นี้ได้ กรุณาปิดการใช้งาน', //TODO
+	'MBSTRING_FUNC_OVERLOAD'				=> 'Function overloading', //TODO
+	'MBSTRING_FUNC_OVERLOAD_EXPLAIN'		=> '<var>mbstring.func_overload</var> ต้องกำหนดเพียง 0 or 4.', //TODO
+	'MBSTRING_ENCODING_TRANSLATION'			=> 'Transparent character encoding', //TODO
+	'MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> ต้องกำหนดค่าเป็น 0.', //TODO
+	'MBSTRING_HTTP_INPUT'					=> 'HTTP input character conversion', //TODO
+	'MBSTRING_HTTP_INPUT_EXPLAIN'			=> '<var>mbstring.http_input</var> ต้องกำหนดค่าเป็น <samp>ใช่</samp>.', //TODO
+	'MBSTRING_HTTP_OUTPUT'					=> 'HTTP output character conversion', //TODO
+	'MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> ต้องกำหนดค่าเป็น  <samp>ใช่</samp>.', //TODO
 
 	'MAKE_FOLDER_WRITABLE'		=> 'โปรดตรวจสอบว่าโฟลเดอร์มีอยู่จริงและสามารถเขียนทับได้ หลังจากนั้นพยายามลองใหม่อีกครั้ง:<br />»<strong>%s</strong>.',
 	'MAKE_FOLDERS_WRITABLE'		=> 'โปรดตรวจสอบว่าโฟลเดอร์มีอยู่จริงและสามารถเขียนทับได้:<br />»<strong>%s</strong>.',
@@ -300,7 +300,7 @@ $lang = array_merge($lang, array(
 	'PHP_VERSION_REQD'				=> 'PHP version >= 4.3.3',
 	'POST_ID'						=> 'Post ID',
 	'PREFIX_FOUND'					=> 'การสแกนตารางของคุณได้ผลว่าคุณใช้ตารางที่มี <strong>%s</strong> เป็นคำนำหน้าตาราง',
-	'PREPROCESS_STEP'				=> 'Executing pre-processing functions/queries',
+	'PREPROCESS_STEP'				=> 'Executing pre-processing functions/queries', //TODO
 	'PRE_CONVERT_COMPLETE'			=> 'ท่านสามารถคลิกปุ่ม ขั้นตอนถัดไป เพื่อเริ่มการนำข้อมูลเข้า ซึ่งท่านอาจต้องทำการแก้ไขหลายอย่างด้วยตัวเอง    เมื่อการนำข้อมูลเข้าเสร็จสิ้นลง กรุณาตรวจสอบสิทธิ์, สร้างรายการค้นหาใหม่ถ้าจำเป็น, และ อย่าลืมตรวจสอบว่าทุกไฟล์ได้ถูกคัดลอกมาอย่างถูกต้อง เช่น ไฟล์รูปภาพประจำตัว (avatars) และ รูปแสดงอารมณ์ (smilies)',
 	'PROCESS_LAST'					=> 'เข้าสู่ระบบล่าสุด',
 
@@ -355,7 +355,7 @@ $lang = array_merge($lang, array(
 	'UNWRITABLE'				=> 'เขียนไม่ได้',
 	'UPDATE_TOPICS_POSTED'		=> 'กำลังสร้างข้อมูลโพสในกระทู้',
 	'UPDATE_TOPICS_POSTED_ERR'	=> 'มีความผิดพลาดขณะสร้างโพสในกระทู้ คุณสามารถลองอีกครั้งหลังจากกระบวนการแปลงเสร็จสิ้น',
-	'VERIFY_OPTIONS'			=> 'Verifying conversion options',
+	'VERIFY_OPTIONS'			=> 'Verifying conversion options', //TODO
 	'VERSION'					=> 'เวอร์ชั่น',
 
 	'WELCOME_INSTALL'			=> 'ยินดีต้อนรับเข้าสู่ เว็บไซต์ phpBB3 Installation',
@@ -365,7 +365,7 @@ $lang = array_merge($lang, array(
 // Updater
 $lang = array_merge($lang, array(
 	'ALL_FILES_UP_TO_DATE'		=> 'ทุกไฟล์เป็นไฟล์ใหม่ล่าสุดของ phpBB แล้ว คุณสามารถ <a href="../ucp.php?mode=login">เข้าสู่ระบบ</a> และตรวจสอบทุกอย่างว่าทำงานได้ปกติ อย่าลืมลบเปลี่ยนชื่อ หรือย้ายไดเรกทอรี่ที่ติดตั้ง!',
-	'ARCHIVE_FILE'				=> 'Source file within archive',
+	'ARCHIVE_FILE'				=> 'Source file within archive', //TODO
 
 	'BACK'				=> 'ย้อนกลับ',
 	'BINARY_FILE'		=> 'Binary file',
@@ -381,7 +381,8 @@ $lang = array_merge($lang, array(
 	'COLLECTED_INFORMATION_EXPLAIN'	=> 'รายการข้่างล่างนี้แสดงข้อมูลเกี่ยวกับไฟล์ที่ต้องการการอัพเดท โปรดอ่านข้อมูลเพื่อให้ทราบความหมายและคุณต้องทำอะไรเพื่อให้การอัพเดทสำเร็จ',
 	'COLLECTING_FILE_DIFFS'			=> 'ข้อมูลไฟล์ที่แตกต่างกัน',
 	'COMPLETE_LOGIN_TO_BOARD'		=> 'คุณสามารถ<a href="../ucp.php?mode=login">เข้าสู่ระบบ</a> และตรวจสอบทุกอย่างว่าทำงานได้ปกติ อย่าลืมลบ หรือ เปลี่ยนชื่อ หรือ ย้ายไดเรกทอรี่ install!',
-	'CONTINUE_UPDATE_NOW'			=> 'ทำกระบวนการอัพเดทต่อไป',
+	'CONTINUE_UPDATE_NOW'			=> 'ทำกระบวนการอัพเดทต่อไป',		// Shown within the database update script at the end if called from the updater //CHECK
+	'CONTINUE_UPDATE'				=> 'Continue update now',					// Shown after file upload to indicate the update process is not yet finished //TODO
 	'CURRENT_FILE'					=> 'ไฟล์ปัจจุบัน',
 	'CURRENT_VERSION'				=> 'เวอร์ชั่นปัจจุบัน',
 
@@ -393,13 +394,14 @@ $lang = array_merge($lang, array(
 	'DIFF_INLINE'						=> 'Inline',
 	'DIFF_RAW'							=> 'Raw unified diff',
 	'DIFF_SEP_EXPLAIN'					=> 'ท้ายไฟล์ปัจจุบัน / จุดเริ่มต้นของไฟล์อัพเดท',
-	'DIFF_SIDE_BY_SIDE'					=> 'Side by Side',
-	'DIFF_UNIFIED'						=> 'Unified diff',
+	'DIFF_SIDE_BY_SIDE'					=> 'Side by Side', //TODO
+	'DIFF_UNIFIED'						=> 'Unified diff', //TODO
 	'DO_NOT_UPDATE'						=> 'อย่าอัพเดทไฟล์นี้',
 	'DONE'								=> 'ทำ',
 	'DOWNLOAD'							=> 'ดาวน์โหลด',
 	'DOWNLOAD_AS'						=> 'ดาวน์โหลด เป็น',
-	'DOWNLOAD_UPDATE_METHOD'			=> 'ดาวน์โหลด  modified files archive',
+	'DOWNLOAD_UPDATE_METHOD_BUTTON'		=> 'Download modified files archive (recommended)', //TODO
+	'DOWNLOAD_UPDATE_METHOD'			=> 'ดาวน์โหลด  modified files archive', //TODO
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'มื่อคุณดาวน์โหลดแล้ว คุณควรแตกไฟล์ archive คุณจะพบไฟล์ที่ถูกแก้ไขที่คุณต้องอัพโหลดไปที่ไดเรกทอรี่รากของ phpBB โปรดอัพโหลดไฟล์ไปยังที่ที่เหมาะสม หลังจากเสร็จสิ้นกระบวนการแล้ว ให้คุณตรวจสอบไฟล์อีกครั้งด้วยปุ่มข้างล่างนี้',
 
 	'ERROR'			=> 'ผิดพลาด',
@@ -434,7 +436,7 @@ $lang = array_merge($lang, array(
 	'LINE_ADDED'			=> 'เพิ่ม',
 	'LINE_MODIFIED'			=> 'แก้ไข',
 	'LINE_REMOVED'			=> 'ลบออก',
-	'LINE_UNMODIFIED'		=> 'Unmodified',
+	'LINE_UNMODIFIED'		=> 'Unmodified', //TODO
 	'LOGIN_UPDATE_EXPLAIN'	=> 'คุณต้องล็อกอินก่อนที่จะอัพเดทการติดตั้ง',
 
 	'MAPPING_FILE_STRUCTURE'	=> 'เพื่อให้การอัพโหลดง่าย นี้คือสถานที่ไฟล์ที่จับคู่กับการติดตั้ง phpBB',
@@ -456,11 +458,11 @@ $lang = array_merge($lang, array(
 	'NO_UPDATE_FILES'				=> 'ไม่อัพเดทไฟล์ต่อไปนี้',
 	'NO_UPDATE_FILES_EXPLAIN'		=> 'ไฟล์ต่อไปนี้เป็นไฟล์ใหม่หรือได้รับการแก้ไขแต่ไม่พบไดเรกทอรี่ที่ปกติมีไฟล์นี้อยู่ ถ้าไฟล์อยู่ที่อื่นนอกจาก language/ หรือ styles/ การอัพเดทอาจไม่สมบูรณ์',
 	'NO_UPDATE_FILES_OUTDATED'		=> 'ไม่พบอัพเดทไดเรกทอรี่ที่ถูกต้อง กรุณาตรวจสอบว่าคุณได้อัพโหลดไฟล์ที่เกี่ยวข้องแล้ว<br /><br />การติดตั้งของคุณดูเหมือนว่า <strong>ไม่</strong> อัพเดท เวอร์ชันล่าสุด phpBB %1$s, โปรดไปที่ <a href="http://www.phpbb.com/downloads/" rel="external" target="_bank">http://www.phpbb.com/downloads/</a> เพื่อโหลดไฟล์ที่ถูกต้อง เพื่ออัพเดท เวอร์ชั่น %2$s ถึง เวอร์ชั่น %3$s',
-	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'Your version is up to date. There is no need to run the update tool. If you want to make an integrity check on your files make sure you uploaded the correct update files.', //[TODO]
+	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'Your version is up to date. There is no need to run the update tool. If you want to make an integrity check on your files make sure you uploaded the correct update files.', //TODO
 	'NO_UPDATE_INFO'				=> 'ไม่พบข้อมูลของไฟล์อัพเดท',
 	'NO_UPDATES_REQUIRED'			=> 'ไม่ต้องการการอัพเดท',
 	'NO_VISIBLE_CHANGES'			=> 'ไม่เห็นการเปลี่ยนแปลง',
-	'NOTICE'						=> 'Notice',
+	'NOTICE'						=> 'Notice', //TODO
 	'NUM_CONFLICTS'					=> 'จำนวนของความขัดแย้ง',
 	'NUMBER_OF_FILES_COLLECTED'		=> 'การเปลี่ยนแปลงเสร็จสิ้นแล้ว %1$d จาก %2$d ไฟล์ทั้งหมดที่ถูกตรวจสอบ <br />กรุณารอจนกว่าไฟล์ทั้งหมดจะถูกตรวจสอบเสร็จสิ้น',
 
@@ -499,6 +501,8 @@ $lang = array_merge($lang, array(
 	'STATUS_UP_TO_DATE'			=> 'ไฟล์ที่อัพเดทแล้ว',
 
 	'TOGGLE_DISPLAY'			=> 'แสดง/ซ่อนไฟล์',
+	'TRY_DOWNLOAD_METHOD'		=> 'You may want to try the download modified files method.<br />This method always works and is also the recommended update path.', //TODO
+	'TRY_DOWNLOAD_METHOD_BUTTON'=> 'Try this method now', //TODO
 
 	'UPDATE_COMPLETED'				=> 'อัพเดทเสร็จสิ้น',
 	'UPDATE_DATABASE'				=> 'อัพเดทฐานข้อมูล',
@@ -567,7 +571,7 @@ $lang = array_merge($lang, array(
 
 // Default database schema entries...
 $lang = array_merge($lang, array(
-		'CONFIG_BOARD_EMAIL_SIG'		=> 'ขอบคุณครับ, The Management',
+	'CONFIG_BOARD_EMAIL_SIG'		=> 'ขอบคุณครับ, The Management', //CHECK
 	'CONFIG_SITE_DESC'				=> 'คำอธิบายเว็บ ',
 	'CONFIG_SITENAME'				=> 'ชื่อเว็บ',
 
@@ -587,7 +591,7 @@ $lang = array_merge($lang, array(
 	'FORUMS_TEST_FORUM_DESC'		=> 'บอร์ดทดสอบ นี่เป็นการทดสอบ ตั้งค่าส่วนเพิ่มเติมของ บอร์ด',
 	'FORUMS_TEST_FORUM_TITLE'		=> 'บอร์ดทดสอบ 1',
 
-	'RANKS_SITE_ADMIN_TITLE'		=> 'Administrator',
+	'RANKS_SITE_ADMIN_TITLE'		=> 'Administrator', //CHECK
 	'REPORT_WAREZ'					=> 'ข้อความนี้ประกอบด้วยลิงค์หรือซอฟต์แวร์ผิดกฏหมาย',
 	'REPORT_SPAM'					=> 'รายงานนี้โพสเพื่อการโฆษณาเวบไซต์หรือผลิตภัณฑ์อื่น',
 	'REPORT_OFF_TOPIC'				=> 'รายงานการปิดกระทู้',

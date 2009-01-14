@@ -3,7 +3,7 @@
 
 /**
 *
-* viewforum [English]
+* viewforum [Thai]
 *
 * @package language
 * @version $Id: viewforum.php 8479 2008-03-29 00:22:48Z naderman $

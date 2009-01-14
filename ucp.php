@@ -3,10 +3,10 @@
 
 /**
 *
-* ucp [English]
+* ucp [Thai]
 *
 * @package language
-* @version $Id: ucp.php 8479 2008-03-29 00:22:48Z naderman $
+* @version $Id: ucp.php 9162 2008-12-03 11:18:31Z acydburn $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -102,7 +102,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_CATEGORY'				=> 'หมวดหมู่',
 	'AVATAR_EXPLAIN'				=> 'ขนาดภาพใหญ่สุดคือ กว้าง %1$d pixel สูง %2$d pixel ขนาดไฟล์ %3$dkB',
 	'AVATAR_FEATURES_DISABLED'		=> 'รูปภาพส่วนตัวถูกยกเลิกการใช้งาน',
-	'AVATAR_GALLERY'				=> 'Local gallery',
+	'AVATAR_GALLERY'				=> 'Local gallery', //TODO
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'ไม่สามารถอัปโหลดรูปประจำตัวไปยัง %s',
 	'AVATAR_PAGE'					=> 'หน้า',
 
@@ -112,7 +112,7 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY_EXPLAIN'			=> 'ถ้าคุณระบุปีที่เกิด ก็จะสามารถแสดงอายุของคุณได้',
 	'BOARD_DATE_FORMAT'			=> 'รูปแบบวันที่',
 	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'ให้ใช้ตามรูปแบบเดียวกับฟังก์ชัย <a href="http://www.php.net/date">date()</a> ของ PHP',
-	'BOARD_DST'					=> 'Summer Time/<abbr title="Daylight Saving Time">DST</abbr> is in effect',
+	'BOARD_DST'					=> 'Summer Time/<abbr title="Daylight Saving Time">DST</abbr> is in effect', //TODO
 	'BOARD_LANGUAGE'			=> 'ภาษาที่ใช้งาน',
 	'BOARD_STYLE'				=> 'รูปแบบของบอร์ด',
 	'BOARD_TIMEZONE'			=> 'Time-Zone',
@@ -123,7 +123,7 @@ $lang = array_merge($lang, array(
 
 	'CANNOT_EDIT_MESSAGE_TIME'	=> 'คุณไม่สามารถลบหรือแก้ไขข้อความนี้ได้อีกต่อไปแล้ว',
 	'CANNOT_MOVE_TO_SAME_FOLDER'=> 'ไม่สามารถย้ายข้อความไปยังโฟลเดอร์ที่กำลังจะถูกลบได้',
-	'CANNOT_MOVE_FROM_SPECIAL'	=> 'Messages cannot be moved from the outbox.', //[TODO]
+	'CANNOT_MOVE_FROM_SPECIAL'	=> 'Messages cannot be moved from the outbox.', //TODO
 	'CANNOT_RENAME_FOLDER'		=> 'ไม่สามารถเปลี่ยนชื่อโฟลเดอร์นี้ได้',
 	'CANNOT_REMOVE_FOLDER'		=> 'ไม่สามารถลบโฟลเดอร์นี้ได้',
 	'CHANGE_DEFAULT_GROUP'		=> 'เปลี่ยนกลุ่มมาตรฐาน',
@@ -137,7 +137,7 @@ $lang = array_merge($lang, array(
 	'CONFIRM_PASSWORD'			=> 'ยืนยันรหัสผ่าน',
 	'CONFIRM_PASSWORD_EXPLAIN'	=> 'ยืนยันรหัสผ่านอีกครั้ง',
 	'COPPA_BIRTHDAY'			=> 'กรุณาเลือกวันเกิดของคุณ',
-	'COPPA_COMPLIANCE'			=> 'COPPA compliance',
+	'COPPA_COMPLIANCE'			=> 'COPPA compliance', //TODO
 	'COPPA_EXPLAIN'				=> 'คลิกปุ่ม ส่ง เพื่อเริ่มสร้างบัญชีของคุณ<!--However it cannot be activated until a parent or guardian approves your registration. You will be emailed a copy of the necessary form with details of where to send it.-->',
 	'CREATE_FOLDER'				=> 'เพิ่มโฟลเดอร์…',
 	'CURRENT_IMAGE'				=> 'รูปภาพที่คุณใช้อยู่',
@@ -235,12 +235,12 @@ $lang = array_merge($lang, array(
 
 	'IF_FOLDER_FULL'			=> 'โฟลเดอร์เต็ม',
 	'IMPORTANT_NEWS'			=> 'ประกาศสำคัญ',
-	'INVALID_USER_BIRTHDAY'			=> 'The entered birthday is not a valid date.', //[TODO]
+	'INVALID_USER_BIRTHDAY'			=> 'The entered birthday is not a valid date.', //TODO
 	'INVALID_CHARS_USERNAME'	=> 'Username ประกอบได้ตัวอักษรที่ไม่ได้รับอนุญาตให้ใช้',
 	'INVALID_CHARS_NEW_PASSWORD'=> 'รหัสผ่านประกอบด้วยตัวอักษรที่ไม่ได้รับอนุญาตให้ใช้',
 	'ITEMS_REQUIRED'			=> 'ข้อมูลที่ระบุเครื่องหมาย  * เป็นข้อมูลที่ระบบต้องการให้กรอก',
 
-	'JOIN_SELECTED'				=> 'Join selected',
+	'JOIN_SELECTED'				=> 'Join selected', //TODO
 
 	'LANGUAGE'					=> 'ภาษา',
 	'LINK_REMOTE_AVATAR'		=> 'เชื่อมโยงนอกเวบไซต์',
@@ -275,11 +275,11 @@ $lang = array_merge($lang, array(
 	'NEW_FOLDER_NAME'				=> 'ชื่อโฟล์เดอร์',
 	'NEW_PASSWORD'					=> 'รหัสผ่านใหม่',
 	'NEW_PASSWORD_ERROR'			=> 'รหัสผ่านยืนยัน ไม่ตรงกันโปรดตรวจสอบอีกครั้ง',
-	'NOTIFY_METHOD'					=> 'Notification method',
-	'NOTIFY_METHOD_BOTH'			=> 'Both',
+	'NOTIFY_METHOD'					=> 'Notification method', //TODO
+	'NOTIFY_METHOD_BOTH'			=> 'Both', //TODO
 	'NOTIFY_METHOD_EMAIL'			=> 'E-mailอย่างเดียว',
 	'NOTIFY_METHOD_EXPLAIN'			=> 'วิธีการส่ง e-mail ในบอร์ดนี้',
-	'NOTIFY_METHOD_IM'				=> 'Jabber only',
+	'NOTIFY_METHOD_IM'				=> 'Jabber only', //TODO
 	'NOTIFY_ON_PM'					=> 'แจ้งเตือนเมื่อมีข้อความส่วนตัวมาใหม่',
 	'NOT_ADDED_FRIENDS_ANONYMOUS'	=> 'คุณไม่สามารถเพิ่มรายชื่อนิรนาม ลงในรายชื่อเพื่อนได้.',
 	'NOT_ADDED_FRIENDS_FOES'		=> 'สมาชิกนี้อยู่ในรายชื่อของศัตรู ไม่สามารถเพิ่มในรายชื่อเพื่อนได้',
@@ -300,6 +300,8 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_EDIT_MESSAGE'			=> 'คุณไม่มีสิทธ์แก้ไขข้อความส่วนตัวนี้',
 	'NO_AUTH_FORWARD_MESSAGE'		=> 'คุณไม่มีสิทธ์ส่งต่อข้อความส่วนตัวนี้',
 	'NO_AUTH_GROUP_MESSAGE'			=> 'คุณไม่มีสิทธ์ส่งข้อความเข้ากลุ่มนี้',
+	'NO_AUTH_PASSWORD_REMINDER'		=> 'You are not authorised to request a new password.', //TODO
+	'NO_AUTH_READ_HOLD_MESSAGE'		=> 'You are not authorised to read private messages that are on hold.', //TODO
 	'NO_AUTH_READ_MESSAGE'			=> 'คุณไม่มีสิทธ์อ่านข้อความส่วนตัวนี้',
 	'NO_AUTH_READ_REMOVED_MESSAGE'	=> 'คุณไม่มีสิทธิฺอ่านข้อความนี้ เนื่องจากเจ้าของข้อความได้ยกเลิกไปแล้ว',
 	'NO_AUTH_SEND_MESSAGE'			=> 'คุณไม่สามารถส่งข้อความส่วนตัวนี้',
@@ -307,8 +309,8 @@ $lang = array_merge($lang, array(
 
 	'NO_BCC_RECIPIENT'			=> 'ไม่มี',
 	'NO_BOOKMARKS'				=> 'คุณไม่มีรายการโปรด',
-	'NO_BOOKMARKS_SELECTED'		=> 'You have selected no bookmarks.',
-	'NO_EDIT_READ_MESSAGE'		=> 'Private message cannot be edited because it has already been read.', //[TODO]
+	'NO_BOOKMARKS_SELECTED'		=> 'You have selected no bookmarks.', //TODO
+	'NO_EDIT_READ_MESSAGE'		=> 'Private message cannot be edited because it has already been read.', //TODO
 	'NO_EMAIL_USER'				=> 'ไม่สามารถหา e-mail/Username นี้',
 	'NO_FOES'					=> 'ไม่มีรายชื่อศัตรู',
 	'NO_FRIENDS'				=> 'ไม่มีรายชื่อเพื่อน',
@@ -321,12 +323,13 @@ $lang = array_merge($lang, array(
 	'NO_NEWER_PM'				=> 'ไม่มีข้อความใหม่',
 	'NO_OLDER_PM'				=> 'ไม่มีข้อความเก่า',
 	'NO_PASSWORD_SUPPLIED'		=> 'โปรดระบุชื่อผู้ใช้งาน และ รหัสผ่าน.',
-	'NO_RECIPIENT'				=> 'No recipient defined.',
-	'NO_RULES_DEFINED'			=> 'No rules defined.',
+	'NO_RECIPIENT'				=> 'No recipient defined.', //TODO
+	'NO_RULES_DEFINED'			=> 'No rules defined.', //TODO
 	'NO_SAVED_DRAFTS'			=> 'ไม่มีข้อความร่างให้บันทึก.',
-	'NO_TO_RECIPIENT'			=> 'None',
-	'NO_WATCHED_FORUMS'			=> 'คุณไม่สามารถดูบอร์ด นี้ได้',
-	'NO_WATCHED_TOPICS'			=> 'คุณไม่สามารถดูกระทู้ นี้ได้',
+	'NO_TO_RECIPIENT'			=> 'None', //TODO
+	'NO_WATCHED_FORUMS'			=> 'คุณไม่สามารถดูบอร์ด นี้ได้', //CHECK
+	'NO_WATCHED_SELECTED'		=> 'You have not selected any subscribed topics or forums.', //TODO
+	'NO_WATCHED_TOPICS'			=> 'คุณไม่สามารถดูกระทู้ นี้ได้', //CHECK
 
 	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'รหัสผ่าน ต้องมีความยาว %1$d ถึง %2$d ตัวอักษร จะต้องใช้ทั้งตัวอักษรเล็ก, ใหญ่, และ ตัวเลข ผสมกัน',
 	'PASS_TYPE_ANY_EXPLAIN'		=> 'ความยาว %1$d ถึง %2$d ตัวอักษร',
@@ -374,7 +377,7 @@ $lang = array_merge($lang, array(
 	'RENAME'							=> 'เปลี่ยนชื่อ',
 	'RENAME_FOLDER'						=> 'เปลี่ยนชื่อโฟล์เดอร์',
 	'REPLIED_MESSAGE'					=> 'ข้อความตอบกลับ',
-	'RESIGN_SELECTED'					=> 'Resign selected',
+	'RESIGN_SELECTED'					=> 'Resign selected', //TODO
 	'RETURN_FOLDER'						=> '%1$sย้อนกลับไปโฟล์เดอร์ก่อนหน้านี้%2$s',
 	'RETURN_UCP'						=> '%s ย้อนกลับไปหน้าที่แล้ว%s',
 	'RULE_ADDED'						=> 'เพิ่มกฏเรียบร้อยแล้ว',
@@ -393,14 +396,14 @@ $lang = array_merge($lang, array(
 	'SIGNATURE_PREVIEW'			=> 'ลายเซนต์ของคุณเหมือนกับข้อความที่คุณโฟสต์',
 	'SIGNATURE_TOO_LONG'		=> 'ลายเซนต์ของคุณยาวเกินไป',
 	'SORT'						=> 'เรียง',
-	'SORT_COMMENT'				=> 'File comment',
+	'SORT_COMMENT'				=> 'File comment', //TODO
 	'SORT_DOWNLOADS'			=> 'ดาวน์โหลด',
-	'SORT_EXTENSION'			=> 'Extension',
+	'SORT_EXTENSION'			=> 'Extension', //TODO
 	'SORT_FILENAME'				=> 'ชื่อไฟล์',
 	'SORT_POST_TIME'			=> 'โพสต์เมื่อ',
 	'SORT_SIZE'					=> 'ขนาดไฟล์',
 
-	'TIMEZONE'					=> 'Time-Zone',
+	'TIMEZONE'					=> 'Time-Zone', //TODO
 	'TO'						=> 'ถึง',
 	'TOO_MANY_RECIPIENTS'		=> 'ผู้รับมากเกินไป',
 	'TOO_MANY_REGISTERS'		=> 'มีผู็้ลงทะเบียนมากเกินไป กรุณาลองใหม่อีกครั้ง',
@@ -459,7 +462,7 @@ $lang = array_merge($lang, array(
 	'UCP_ZEBRA_FOES'				=> 'รายชื่อศัตรู',
 	'UCP_ZEBRA_FRIENDS'				=> 'รายชื่อเพื่อน',
 	'UNKNOWN_FOLDER'				=> 'ไม่รู้จักโฟรเดอร์นี้',
-	'UNWATCH_MARKED'				=> 'Unwatch marked',
+	'UNWATCH_MARKED'				=> 'Unwatch marked', //TODO
 	'UPLOAD_AVATAR_FILE'			=> 'เลือกรูปจากเครื่องคุณ',
 	'UPLOAD_AVATAR_URL'				=> 'เลือกใส่้รูปด้วย URL',
 	'UPLOAD_AVATAR_URL_EXPLAIN'		=> 'คุณสามารถนำ URL ของรูปภาพจากเว็บที่ไหนมาใส่ก็ได้เช่นกัน',
@@ -532,7 +535,7 @@ $lang = array_merge($lang, array(
 		'IS_GROUP'		=> 'ในกลุ่มสมาชิก',
 		'ANSWERED'		=> 'คำตอบ',
 		'FORWARDED'		=> 'ส่งต่อ',
-		'TO_GROUP'		=> 'to my default usergroup',
+		'TO_GROUP'		=> 'to my default usergroup', //TODO
 		'TO_ME'			=> 'ถึงตัวเอง'
 	),
 

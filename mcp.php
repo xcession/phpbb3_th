@@ -6,7 +6,7 @@
 * mcp [Thai]
 *
 * @package language
-* @version $Id: mcp.php 8479 2008-03-29 00:22:48Z naderman $
+* @version $Id: mcp.php 8940 2008-09-26 11:25:04Z toonarmy $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -38,9 +38,9 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACTION'				=> 'Action',
-	'ACTION_NOTE'			=> 'Action/Note',
-	'ADD_FEEDBACK'			=> 'Add feedback',
+	'ACTION'				=> 'Action', //TODO
+	'ACTION_NOTE'			=> 'Action/Note', //TODO
+	'ADD_FEEDBACK'			=> 'Add feedback', //TODO
 	'ADD_FEEDBACK_EXPLAIN'	=> 'ถ้าคุณต้องการเพิ่มข้อความในช่องว่างนี้ ต้องเป็นกรอกตัวอักษรอย่างเดียวเท่านั้น  HTML, BBCode, etc.ไม่สามารถใช้ได้',
 	'ADD_WARNING'			=> 'Add warning',
 	'ADD_WARNING_EXPLAIN'	=> 'การส่งข้อความเตือนให้ผู้ใช้งานทราบ ต้องเป็นกรอกตัวอักษรอย่างเดียวเท่านั้น  HTML, BBCode, etc.ไม่สามารถใช้ได้',
@@ -88,7 +88,7 @@ $lang = array_merge($lang, array(
 	'EMPTY_REPORT'					=> 'คุณต้องเขียนอธิบาย เมื่อคุณต้องการจะระบุเหตุผล',
 	'EMPTY_TOPICS_REMOVED_WARNING'	=> 'เลือก หนึ่งหรือหลาย กระทู้ที่ต้องการย้ายจากฐานข้อมูล.',
 
-	'FEEDBACK'				=> 'Feedback',
+	'FEEDBACK'				=> 'Feedback', //TODO
 	'FORK'					=> 'คัดลอก',
 	'FORK_TOPIC'			=> 'คัดลอกกระทู้',
 	'FORK_TOPIC_CONFIRM'	=> '่ต้องการคัดลอกกระทู้นี้ ?',
@@ -109,8 +109,8 @@ $lang = array_merge($lang, array(
 	'LATEST_LOGS'				=> ' 5 log ล่าสุด',
 	'LATEST_REPORTED'			=> ' 5 รายงานล่าสุด',
 	'LATEST_UNAPPROVED'			=> ' 5 ข้อความที่รอการอนุมัติ',
-	'LATEST_WARNING_TIME'		=> 'Latest warning issued',
-	'LATEST_WARNINGS'			=> 'Latest 5 warnings',
+	'LATEST_WARNING_TIME'		=> 'Latest warning issued', //TODO
+	'LATEST_WARNINGS'			=> 'Latest 5 warnings', //TODO
 	'LEAVE_SHADOW'				=> 'เก็บชื่อกระทู้ไว้ที่บอร์ดเดิม ลิงค์ข้อมูลไปที่บอร์ดใหม่',
 	'LIST_REPORT'				=> '1 รายงาน',
 	'LIST_REPORTS'				=> '%d รายงาน',
@@ -139,10 +139,10 @@ $lang = array_merge($lang, array(
 	'MCP_BAN_IPS'				=> 'แบน IP',
 	'MCP_BAN_USERNAMES'			=> 'แบน Usernames',
 
-	'MCP_LOGS'						=> 'Log ของผู้จัดการบอร์ด',
+	'MCP_LOGS'						=> 'Log ของผู้จัดการบอร์ด', //CHECK
 	'MCP_LOGS_FRONT'				=> 'หน้าหลัก',
-	'MCP_LOGS_FORUM_VIEW'			=> ' logs บอร์ด',
-	'MCP_LOGS_TOPIC_VIEW'			=> ' log ของกระทู้',
+	'MCP_LOGS_FORUM_VIEW'			=> ' logs บอร์ด', //CHECK
+	'MCP_LOGS_TOPIC_VIEW'			=> ' log ของกระทู้', //CHECK
 
 	'MCP_MAIN'						=> 'หน้าแรก',
 	'MCP_MAIN_FORUM_VIEW'			=> 'ดูหน้าบอร์ด',
@@ -197,14 +197,14 @@ $lang = array_merge($lang, array(
 	'MERGE_POSTS'			=> 'รวมข้อความ',
 	'MERGE_POSTS_CONFIRM'	=> 'คุณแน่ใจใช่ไหม ที่ต้องการรวมข้อความเข้าด้วยกัน',
 	'MERGE_TOPIC_EXPLAIN'	=> 'คุณสามารถรวมข้อความระหว่างกับกระทู้อื่นได้ ข้อความเหล่านี้จะไม่ถูกนำกลับมาและจะปรากฏเมื่อผู้ใช้ทำการโพสต์มันลงในข้อความใหม่<br />กรุณาเลือกเลขที่กระทู้ปลยทาง หรือ เลือกกระทู้จากการค้นหา้ ',
-	'MERGE_TOPIC_ID'		=> 'Destination topic identification number',
+	'MERGE_TOPIC_ID'		=> 'Destination topic identification number', //TODO
 	'MERGE_TOPICS'			=> 'รวมกระทู้เหล่านี้',
 	'MERGE_TOPICS_CONFIRM'	=> 'คุณแน่ใจใช่ไหม ที่ต้องการรวมกระทู้ที่เลือก เข้าด้วยกัน?',
 	'MODERATE_FORUM'		=> 'บอร์ดที่จัดการ',
 	'MODERATE_TOPIC'		=> 'กระทู้ที่จัดการ',
 	'MODERATE_POST'			=> 'ข้อความที่จัดการ',
-	'MOD_OPTIONS'			=> 'Moderator options',
-	'MORE_INFO'				=> 'Further information',
+	'MOD_OPTIONS'			=> 'Moderator options', //TODO
+	'MORE_INFO'				=> 'Further information', //TODO
 	'MOST_WARNINGS'			=> 'การแจ้งเตือนของผู้ใช้งาน',
 	'MOVE_TOPIC_CONFIRM'	=> 'คุณแน่ใจไหมที่ต้องการย้ายกระทู้นี้ ไปที่บอร์ดใหม่?',
 	'MOVE_TOPICS'			=> 'ย้ายกระทู้ที่เลือก',
@@ -251,8 +251,8 @@ $lang = array_merge($lang, array(
 	'POST_REPORTED_SUCCESS'		=> 'ข้อความที่คุณต้องการถูกรายงานเแล้ว.',
 	'POST_UNLOCKED_SUCCESS'		=> 'ปลดล๊อกข้อความสำเร็จ',
 
-	'READ_USERNOTES'			=> 'User notes',
-	'READ_WARNINGS'				=> 'User warnings',
+	'READ_USERNOTES'			=> 'User notes', //TODO
+	'READ_WARNINGS'				=> 'User warnings', //TODO
 	'REPORTER'					=> 'ผู้รายงาน',
 	'REPORTED'					=> 'ถูกรายงาน',
 	'REPORTED_BY'				=> 'ถูกรายงานโดย',
@@ -266,14 +266,14 @@ $lang = array_merge($lang, array(
 	'REPORT_DELETED_SUCCESS'	=> 'รายงานที่ถูกเลือกได้ลบเรียบร้อยแล้ว',
 	'REPORT_DETAILS'			=> 'รายละเอียดรายงาน',
 	'REPORT_MESSAGE'			=> 'รายงานในข้อความ',
-	'REPORT_MESSAGE_EXPLAIN'	=> 'Use this form to report the selected message. Reporting should generally be used only if the message breaks forum rules.',
-	'REPORT_NOTIFY'				=> 'Notify me',
-	'REPORT_NOTIFY_EXPLAIN'		=> 'Informs you when your report is dealt with.',
-	'REPORT_POST_EXPLAIN'		=> 'Use this form to report the selected post to the forum moderators and board administrators. Reporting should generally be used only if the post breaks forum rules.',
+	'REPORT_MESSAGE_EXPLAIN'	=> 'Use this form to report the selected message. Reporting should generally be used only if the message breaks forum rules.', //TODO
+	'REPORT_NOTIFY'				=> 'Notify me', //TODO
+	'REPORT_NOTIFY_EXPLAIN'		=> 'Informs you when your report is dealt with.', //TODO
+	'REPORT_POST_EXPLAIN'		=> 'Use this form to report the selected post to the forum moderators and board administrators. Reporting should generally be used only if the post breaks forum rules.', //TODO
 	'REPORT_REASON'				=> 'รายงานเหตุผล',
 	'REPORT_TIME'				=> 'เวลารายงาน',
 	'REPORT_TOTAL'				=> 'จากทั้งหมด <strong> 1 </strong> รายงาน ที่ถูกตรวจสอบ',
-	'RESYNC'					=> 'Resync',
+	'RESYNC'					=> 'Resync', //TODO
 	'RETURN_MESSAGE'			=> '%sย้อนกลับไปยังข้อความเดิม%s',
 	'RETURN_NEW_FORUM'			=> '%sย้อนกลับไปยัง Forum ใหม่%s',
 	'RETURN_NEW_TOPIC'			=> '%sย้อนกลับไปยังกระทู้ใหม่%s',
@@ -284,13 +284,13 @@ $lang = array_merge($lang, array(
 
 	'SEARCH_POSTS_BY_USER'				=> 'ค้นหาโดย',
 	'SELECT_ACTION'						=> 'เลือกรายการที่ต้องการ',
-	'SELECT_FORUM_GLOBAL_ANNOUNCEMENT'	=> 'Please select the forum you wish this global announcement to be displayed.',
-	'SELECT_FORUM_GLOBAL_ANNOUNCEMENTS'	=> 'One or more of the selected topics are global announcements. Please select the forum you wish these to be displayed.',
+	'SELECT_FORUM_GLOBAL_ANNOUNCEMENT'	=> 'Please select the forum you wish this global announcement to be displayed.', //TODO
+	'SELECT_FORUM_GLOBAL_ANNOUNCEMENTS'	=> 'One or more of the selected topics are global announcements. Please select the forum you wish these to be displayed.', //TODO
 	'SELECT_MERGE'						=> 'เลือกเพื่อรวม',
 	'SELECT_TOPICS_FROM'				=> 'เลือกกระทู้จาก',
 	'SELECT_TOPIC'						=> 'เลือกกระทู้',
 	'SELECT_USER'						=> 'เลือกสมาชิก',
-	'SORT_ACTION'						=> 'Log action',
+	'SORT_ACTION'						=> 'Log action', //TODO
 	'SORT_DATE'							=> 'วันที่',
 	'SORT_IP'							=> 'IP',
 	'SORT_WARNINGS'						=> 'การเตือน',
@@ -298,11 +298,11 @@ $lang = array_merge($lang, array(
 	'SPLIT_FORUM'						=> 'บอร์ดสำหรับกระทู้ใหม่',
 	'SPLIT_POSTS'						=> 'แยกจากการโพสที่เลือก',
 	'SPLIT_SUBJECT'						=> 'หัวข้อกระทู้ใหม่',
-	'SPLIT_TOPIC_ALL'					=> 'Split topic from selected posts',
+	'SPLIT_TOPIC_ALL'					=> 'Split topic from selected posts', //TODO
 	'SPLIT_TOPIC_ALL_CONFIRM'			=> 'คุณแน่ใจหรือ ที่จะแยกกระทู้ออกจากกัน?',
 	'SPLIT_TOPIC_BEYOND'				=> 'แยกหัวข้อที่เลือก',
 	'SPLIT_TOPIC_BEYOND_CONFIRM'		=> 'แน่ใจหรือว่าต้องการแยกหัวข้อ?',
-	'SPLIT_TOPIC_EXPLAIN'				=> 'Using the form below you can split a topic in two, either by selecting the posts individually or by splitting at a selected post.',
+	'SPLIT_TOPIC_EXPLAIN'				=> 'Using the form below you can split a topic in two, either by selecting the posts individually or by splitting at a selected post.', //TODO
 
 	'THIS_POST_IP'				=> 'IP สำหรับกระทู้นี้',
 	'TOPICS_APPROVED_SUCCESS'	=> 'กระทู้ที่เลือก ถูกอนุมัติแล้ว',
@@ -321,12 +321,12 @@ $lang = array_merge($lang, array(
 	'TOPIC_LOCKED_SUCCESS'		=> 'กระทู้ที่เลือก ถูกล๊อกเรียบร้อยแล้ว',
 	'TOPIC_MOVED_SUCCESS'		=> 'กระทู้ที่เลือก ถูกย้ายเรียบร้อยแ้ล้ว.',
 	'TOPIC_NOT_EXIST'			=> 'ไม่พบกระทู้ที่เลือก ',
-	'TOPIC_RESYNC_SUCCESS'		=> 'The selected topic has been resynchronised.',
+	'TOPIC_RESYNC_SUCCESS'		=> 'The selected topic has been resynchronised.', //TODO
 	'TOPIC_SPLIT_SUCCESS'		=> 'กระทู้ที่เลือก แยกเรียบร้อยแ้ล้ว.',
 	'TOPIC_TIME'				=> 'Topic time',
 	'TOPIC_TYPE_CHANGED'		=> 'ชนิดของกระทู้ถูกเปลี่ยนเรียบร้อยแล้ว',
 	'TOPIC_UNLOCKED_SUCCESS'	=> 'กระทู้ที่เลือก ถุกปลดล๊อกเรียบร้อยแล้ว.',
-	'TOTAL_WARNINGS'			=> 'Total Warnings',
+	'TOTAL_WARNINGS'			=> 'Total Warnings', //TODO
 
 	'UNAPPROVED_POSTS_TOTAL'		=> 'ทั้งหมด <strong>%d</strong> ข้อความที่รอการอนุมัติ',
 	'UNAPPROVED_POSTS_ZERO_TOTAL'	=> 'ไม่มีข้อความที่รอการอนุมัติ',
@@ -337,39 +337,40 @@ $lang = array_merge($lang, array(
 	'UNLOCK_POST_POST'				=> 'ข้อความถูกปลดล๊อก',
 	'UNLOCK_POST_POST_CONFIRM'		=> 'ต้องการแก้ไข ?',
 	'UNLOCK_POST_POSTS'				=> 'ยกเลิกการล็อคกระทู้ที่เลือก',
-	'UNLOCK_POST_POSTS_CONFIRM'		=> 'Are you sure you want to allow editing the selected posts?',
+	'UNLOCK_POST_POSTS_CONFIRM'		=> 'Are you sure you want to allow editing the selected posts?', //TODO
 	'UNLOCK_TOPIC'					=> 'ปลดล๊อกกระทู้',
 	'UNLOCK_TOPIC_CONFIRM'			=> 'คุณแน่ใจหรือที่จะปลดล๊อกกระทู้นี้?',
 	'UNLOCK_TOPICS'					=> 'ปลดล๊อกกระทู้ที่ถูกเลือก',
 	'UNLOCK_TOPICS_CONFIRM'			=> 'คุณแน่ใจหรือที่จะปลดล๊อกกระทู้ทั้งหมดที่เลือก ?',
 	'USER_CANNOT_POST'				=> 'คุณไม่สามารถโพสต์ข้อความได้',
 	'USER_CANNOT_REPORT'			=> 'คุณไม่สามารถรายงานข้อความในกระทู้นี้ได้',
-	'USER_FEEDBACK_ADDED'			=> 'User feedback added successfully.',
+	'USER_FEEDBACK_ADDED'			=> 'User feedback added successfully.', //TODO
 	'USER_WARNING_ADDED'			=> 'ผู้ใช้ถูกเตือนเรียบร้อยแล้ว',
 
 	'VIEW_DETAILS'			=> 'แสดงรายละเอียด',
+	'VIEW_POST'				=> 'View post', //TODO
 
 	'WARNED_USERS'			=> 'ผู้ใช้ที่ถูกเตือน',
-	'WARNED_USERS_EXPLAIN'	=> 'This is a list of users with unexpired warnings issued to them.',
-	'WARNING_PM_BODY'		=> 'The following is a warning which has been issued to you by an administrator or moderator of this site.[quote]%s[/quote]',
+	'WARNED_USERS_EXPLAIN'	=> 'This is a list of users with unexpired warnings issued to them.', //TODO
+	'WARNING_PM_BODY'		=> 'The following is a warning which has been issued to you by an administrator or moderator of this site.[quote]%s[/quote]', //TODO
 	'WARNING_PM_SUBJECT'	=> 'Board warning issued',
-	'WARNING_POST_DEFAULT'	=> 'This is a warning regarding the following post made by you: %s .',
+	'WARNING_POST_DEFAULT'	=> 'This is a warning regarding the following post made by you: %s .', //TODO
 	'WARNINGS_ZERO_TOTAL'	=> 'ไม่มีการเตือน',
 
 	'YOU_SELECTED_TOPIC'	=> 'จำนวนกระทู้ที่เลือก  %d: %s.',
 
 	'report_reasons'		=> array(
 		'TITLE'	=> array(
-			'WAREZ'		=> 'Warez',
-			'SPAM'		=> 'Spam',
-			'OFF_TOPIC'	=> 'Off-topic',
-			'OTHER'		=> 'Other',
+			'WAREZ'		=> 'Warez', //TODO
+			'SPAM'		=> 'Spam', //TODO
+			'OFF_TOPIC'	=> 'Off-topic', //TODO
+			'OTHER'		=> 'Other', //TODO
 		),
 		'DESCRIPTION' => array(
-			'WAREZ'		=> 'The post contains links to illegal or pirated software.',
-			'SPAM'		=> 'The reported post has the only purpose to advertise for a website or another product.',
-			'OFF_TOPIC'	=> 'The reported post is off topic.',
-			'OTHER'		=> 'The reported post does not fit into any other category, please use the further information field.',
+			'WAREZ'		=> 'The post contains links to illegal or pirated software.', //TODO
+			'SPAM'		=> 'The reported post has the only purpose to advertise for a website or another product.', //TODO
+			'OFF_TOPIC'	=> 'The reported post is off topic.', //TODO
+			'OTHER'		=> 'The reported post does not fit into any other category, please use the further information field.', //TODO
 		)
 	),	
 ));
