@@ -38,21 +38,21 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACTIVE_TOPICS'			=> 'Active topics', //[TODO]
+	'ACTIVE_TOPICS'			=> 'Active topics', //TODO
 	'ANNOUNCEMENTS'			=> 'ประกาศ',
 
-	'FORUM_PERMISSIONS'		=> 'การอนุญาตของคุณในบอร์ดนี้',
+	'FORUM_PERMISSIONS'		=> 'การอนุญาตของคุณในบอร์ดนี้', //CHECK
 
 	'ICON_ANNOUNCEMENT'		=> 'ประกาศ',
 	'ICON_STICKY'			=> 'ปักหมุด',
 
-	'LOGIN_NOTIFY_FORUM'	=> 'คุณได้รับแจ้งจาก Topic นี้ให้ login ก่อนจึงจะสามารถเข้าใช้งานได้', //[TODO]
+	'LOGIN_NOTIFY_FORUM'	=> 'คุณได้รับแจ้งจาก Topic นี้ให้ login ก่อนจึงจะสามารถเข้าใช้งานได้', //TODO
 
 	'MARK_TOPICS_READ'		=> 'บันทึกว่าอ่านทุกกระทู้แล้ว',
 
-	'NEW_POSTS_HOT'			=> 'โพสต์ใหม่ [ ยอดฮิต ]', //[CHECK]
+	'NEW_POSTS_HOT'			=> 'โพสต์ใหม่ [ ยอดฮิต ]', //CHECK
 	'NEW_POSTS_LOCKED'		=> 'โพสต์ใหม่ [ ถูกล็อค ]',
-	'NO_NEW_POSTS_HOT'		=> 'ไม่มีโพสต์ใหม่ [ ยอดฮิต ]', //[CHECK]
+	'NO_NEW_POSTS_HOT'		=> 'ไม่มีโพสต์ใหม่ [ ยอดฮิต ]', //CHECK
 	'NO_NEW_POSTS_LOCKED'	=> 'ไม่มีโพสต์ใหม่ [ ถูกล็อค ]',
 	'NO_READ_ACCESS'		=> 'เว็บบอร์ดนี้อนุญาตเฉพาะสมาชิกเท่านั้น',
 
@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 
 	'TOPICS_MARKED'			=> 'บันทึกว่าอ่านทุกกระทู้แล้ว',
 
-	'VIEW_FORUM'			=> 'บอร์ด', //[CHECK]
+	'VIEW_FORUM'			=> 'บอร์ด', //CHECK
 	'VIEW_FORUM_TOPIC'		=> '1 กระทู้',
 	'VIEW_FORUM_TOPICS'		=> '%d กระทู้',
 ));

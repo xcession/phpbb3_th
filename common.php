@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'7_DAYS'		=> '7 วัน',
 
 	'ACCOUNT_ALREADY_ACTIVATED'		=> 'บัญชีของคุณได้รับการยืนยันแล้ว',
-	'ACCOUNT_DEACTIVATED'			=> 'บัญชีของคุณได้ถูกระงับชั่วคราว มีเพียง Administrator เท่านั้น ที่จะสามารถยืนยันบัญชีให้คุณได้',
+	'ACCOUNT_DEACTIVATED'			=> 'บัญชีของคุณได้ถูกระงับชั่วคราว มีเพียง Administrator เท่านั้น ที่จะสามารถยืนยันบัญชีให้คุณได้', //CHECK
 	'ACCOUNT_NOT_ACTIVATED'			=> 'บัญชีของคุณยังไม่ได้รับการยืนยัน',
 	'ACP'							=> 'Administration Control Panel',
 	'ACTIVE'						=> 'active', //TODO
@@ -159,9 +159,6 @@ $lang = array_merge($lang, array(
 	'VIEWED_COUNTS'			=> 'เปิดดู %d ครั้ง',
 	'VIEWED_COUNT_NONE'		=> 'ยังไม่มีการเปิดดู',
 
-	'EDIT_POST'							=> 'แก้ไขโพสต์',
-	'EMAIL'								=> 'E-mail',
-	'EMAIL_ADDRESS'						=> 'ที่อยู่ E-mail',
 	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'การส่ง E-mail มีปัญหา <strong>บรรทัดที่ %1$s</strong> Response: %2$s', //TODO
 	'EMPTY_SUBJECT'						=> 'กรุณากรอกหัวข้อด้วย',
 	'EMPTY_MESSAGE_SUBJECT'				=> 'กรุณากรอกข้อความด้วย',
@@ -249,7 +246,7 @@ $lang = array_merge($lang, array(
 	'G_GUESTS'					=> 'บุคคลทั่วไป',
 	'G_REGISTERED'				=> 'สมาชิก',
 	'G_REGISTERED_COPPA'		=> 'สมาชิก COPPA',
-	'G_GLOBAL_MODERATORS'		=> 'Global moderators',
+	'G_GLOBAL_MODERATORS'		=> 'Global moderator',
 
 	'HIDDEN_USERS_ONLINE'			=> 'ซ่อน %d ท่าน',
 	'HIDDEN_USERS_TOTAL'			=> 'ซ่อน %d ท่าน ',
@@ -314,7 +311,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_EDIT'				=> 'ในการแก้ไขข้อความในบอร์ดนี้ คุณจำเป็นต้องลงทะเบียนการเป็นสมาชิกและเข้าใช้งานในระบบก่อน',
 	'LOGIN_EXPLAIN_VIEWONLINE'			=> 'ในการดูข้อความในบอร์ดนี้ คุณจำเป็นต้องลงทะเบียนการเป็นสมาชิกและเข้าใช้งานในระบบก่อน', //CHECK
 	'LOGOUT'							=> 'ออกจากระบบ',
-	'LOGOUT_USER'						=> 'ออกจากระบบ [<strong>%s</strong>]',
+	'LOGOUT_USER'						=> 'ออกจากระบบ [ %s ]',
 	'LOG_ME_IN'							=> 'เข้าสู่ระบบอัตโนมัติ',
 
 	'MARK'					=> 'เลือก',

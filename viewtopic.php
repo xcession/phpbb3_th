@@ -83,8 +83,8 @@ $lang = array_merge($lang, array(
 	'NO_VOTES'				=> 'ไม่มีการโหวต',
 
 	'POLL_ENDED_AT'			=> 'แบบสำรวจสิ้นสุดเมื่อ %s',
-	'POLL_RUN_TILL'			=> 'แบบสำรวจเริ่มเมื่อ %s',
-	'POLL_VOTED_OPTION'		=> 'หัวข้อที่คุณเลือกโหวต',
+	'POLL_RUN_TILL'			=> 'แบบสำรวจเริ่มเมื่อ %s', //CHECK
+	'POLL_VOTED_OPTION'		=> 'ตัวเลือกที่คุณเลือกโหวต', //CHECk
 	'PRINT_TOPIC'			=> 'ตัวอย่างพิมพ์', //CHECK
 
 	'QUICK_MOD'				=> 'เครื่องมือผู้ดูแลบอร์ด', //CHECK
