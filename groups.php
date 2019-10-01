@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 	'GROUP_RANK'						=> 'อันดับของกลุ่ม', 
 	'GROUP_RESIGN_MEMBERSHIP'			=> 'ออกจากสมาชิกกลุ่ม',
 	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'คุณแน่ใจใช่ไหมที่ต้องการออกจากการเป็นสมาชิกของกลุ่มที่คุณเลือก?',
-	'GROUP_RESIGN_PENDING'				=> 'Resign a pending group membership',
+	'GROUP_RESIGN_PENDING'				=> 'ลาออกจากการเป็นสมาชิกกลุ่มที่ค้างอยู่',
 	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Are you sure you want to resign your pending membership from the selected group?', //[TODO]
 	'GROUP_RESIGNED_MEMBERSHIP'			=> 'คุณได้ย้ายออกจากกลุ่มนี้เรียบร้อยแล้ว.',
 	'GROUP_RESIGNED_PENDING'			=> 'Your pending membership was successfully removed from the selected group.', //[TODO]
@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_GROUP'			=> 'คุณต้องเข้าสู่ระบบก่อน จึงจะดูข้อมูลของกลุ่มสมาชิกนี้ได้',
 
 	'NO_LEADERS'					=> 'คุณไม่ได้เป็นผู้นำของกลุ่มใดเลย',
-	'NOT_LEADER_OF_GROUP'			=> 'The requested operation cannot be taken because you are not a leader of the selected group.', //[TODO]
+	'NOT_LEADER_OF_GROUP'			=> 'ไม่สามารถทำการดำเนินการที่ร้องขอได้เนื่องจากคุณไม่ใช่ผู้นำของกลุ่มที่เลือก.', //[TODO]
 	'NOT_MEMBER_OF_GROUP'			=> 'The requested operation cannot be taken because you are not a member of the selected group or your membership has not been approved yet.', //[TODO]
 	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'You are not allowed to resign from your default group.', //[TODO]
 
@@ -91,8 +91,8 @@ $lang = array_merge($lang, array(
 
 	'USER_GROUP_CHANGE'			=> 'จาก “%1$s” กลุ่ม “%2$s”',
 	'USER_GROUP_DEMOTE'			=> 'ความเป็นผู้นำถูกลดระดับ', //[CHECK]
-	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Are you sure you want to demote as group leader from the selected group?', //[TODO]
-	'USER_GROUP_DEMOTED'		=> 'Successfully demoted your leadership.', //[TODO]
+	'USER_GROUP_DEMOTE_CONFIRM'	=> 'คุณแน่ใจหรือไม่ว่าต้องการลดระดับความเป็นผู้นำกลุ่มจากกลุ่มที่เลือก?', //[TODO]
+	'USER_GROUP_DEMOTED'		=> 'ลดระดับความเป็นผู้นำของคุณสำเร็จ.', //[TODO]
 ));
 
 ?>
