@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_ALREADY_ACTIVATED'		=> 'บัญชีของคุณได้รับการยืนยันแล้ว',
 	'ACCOUNT_DEACTIVATED'			=> 'บัญชีของคุณได้ถูกระงับชั่วคราว มีเพียง Administrator เท่านั้น ที่จะสามารถยืนยันบัญชีให้คุณได้', //CHECK
 	'ACCOUNT_NOT_ACTIVATED'			=> 'บัญชีของคุณยังไม่ได้รับการยืนยัน',
-	'ACP'							=> 'Administration Control Panel',
+	'ACP'							=> 'Administration Control Panel', //TODO
 	'ACTIVE'						=> 'active', //TODO
 	'ACTIVE_ERROR'					=> 'ชื่อผู้ใช้นี้ยังไม่ได้รับการยืนยัน กรุณาติดต่อผู้ดูแลระบบหากคุณไม่สามารถยืนยันบัญชีได้ด้วยตัวเอง',
 	'ADMINISTRATOR'					=> 'Administrator',
@@ -697,10 +697,10 @@ $lang = array_merge($lang, array(
 		'TOMORROW'		=> 'พรุ่งนี้',
 		'YESTERDAY'		=> 'เมื่อวานนี้',
 		'AGO'		=> array(
-			0		=> 'less than a minute ago',
-			1		=> '%d minute ago',
-			2		=> '%d minutes ago',
-			60		=> '1 hour ago',
+			0		=> 'less than a minute ago', //TODO
+			1		=> '%d นาทีที่แล้ว',
+			2		=> '%d นาทีที่แล้ว',
+			60		=> '1 ชั่วโมงที่แล้ว',
 		),
 
 		'Sunday'		=> 'วันอาทิตย์',
@@ -787,7 +787,7 @@ $lang = array_merge($lang, array(
 		'12.75'	=> 'UTC + 12:45 ชั่วโมง',
 		'13'	=> 'UTC + 13 ชั่วโมง',
 		'14'	=> 'UTC + 14 ชั่วโมง',
-		'dst'	=> '[ <abbr title="Daylight Saving Time">DST</abbr> ]',
+		'dst'	=> '[ <abbr title="Daylight Saving Time">DST</abbr> ]', //TODO
 	),
 
 	'tz_zones'	=> array(
